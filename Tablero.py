@@ -43,10 +43,33 @@ class Tablero:
 
             self.preguntas_instancia.elegir_pregunta(posicion)
             self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
+        else:
+            if self.casilla == 7:
+                self.preguntas_instancia.elegir_pregunta(1)
+                if Tablero.imprimir_posicion_pregunta(self):
+                    print(
+                        f'Ganaste Queso de la categoría {Preguntas.categoría}')
+
+            elif self.casilla == 14:
+                self.preguntas_instancia.elegir_pregunta(2)
+                if Tablero.imprimir_posicion_pregunta(self):
+                    print(
+                        f'Ganaste Queso de la categoría {Preguntas.categoría}')
+
+            elif self.casilla == 21:
+                self.preguntas_instancia.elegir_pregunta(1)
+                if Tablero.imprimir_posicion_pregunta(self):
+                    print(
+                        f'Ganaste Queso de la categoría {Preguntas.categoría}')
+            elif self.casilla == 35:
+                self.preguntas_instancia.elegir_pregunta(1)
+                if Tablero.imprimir_posicion_pregunta(self):
+                    print(
+                        f'Ganaste Queso de la categoría {Preguntas.categoría}')
 
     # IMPRIME LA PREGUNTA Y DEVUELVE SI ACIERTA O NO
+
     def imprimir_posicion_pregunta(self):
-        Tablero.posicion_pregunta(self)
         if self.pregunta_actual:
             print(f'La categoría es {self.categoría}')
             print(f"\n{self.pregunta_actual[0]['enunciado']}")
@@ -58,26 +81,6 @@ class Tablero:
             return respuesta_usuario == self.pregunta_actual[0]['respuesta_correcta']
 
         return False
-
-    def pregunta_queso(self):
-        if self.casilla == 7:
-            self.preguntas_instancia.elegir_pregunta(1)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(f'Ganaste Queso de la categoría {Preguntas.categoría}')
-
-        elif self.casilla == 14:
-            self.preguntas_instancia.elegir_pregunta(2)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(f'Ganaste Queso de la categoría {Preguntas.categoría}')
-
-        elif self.casilla == 21:
-            self.preguntas_instancia.elegir_pregunta(1)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(f'Ganaste Queso de la categoría {Preguntas.categoría}')
-        elif self.casilla == 35:
-            self.preguntas_instancia.elegir_pregunta(1)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(f'Ganaste Queso de la categoría {Preguntas.categoría}')
 
 
 if __name__ == '__main__':
