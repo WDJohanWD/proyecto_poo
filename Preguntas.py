@@ -2,7 +2,7 @@ from random import sample
 
 
 class Preguntas:
-    #DICCIONARIOS DE LAS PREGUNTAS QUE SE UTILIZARAN
+    # DICCIONARIOS DE LAS PREGUNTAS QUE SE UTILIZARAN
     preguntas_deporte = [{
         "enunciado": "¿En qué país se originó el deporte del cricket?",
         "opciones": ["a) Inglaterra", "b) India", "c) Australia", "d) Sudáfrica"],
@@ -130,36 +130,36 @@ class Preguntas:
         },
         # Agrega más preguntas de entretenimiento según sea necesario
     ]
-    
-    #MÉTODO CONSTRUCTOR
+
+    # MÉTODO CONSTRUCTOR
     def __init__(self) -> None:
         self.pregunta = Preguntas.preguntas_deporte
-        self.categoría='Deporte'
-    
-    #MÉTODO PARA ELEGIR EL TIPO DE PREGUNTA DEPENDIENDO DE QUE CASILLA CAE, UTILIZO EL SAMPLE PARA QUE LA PREGUNTA QUE SALGA DEL DICCIONARIO SEA ALEATORIA
+        self.categoría = 'Deporte'
+
+    # MÉTODO PARA ELEGIR EL TIPO DE PREGUNTA DEPENDIENDO DE QUE CASILLA CAE, UTILIZO EL SAMPLE PARA QUE LA PREGUNTA QUE SALGA DEL DICCIONARIO SEA ALEATORIA
     def elegir_pregunta(self, num: int):
         if num == 1:
-            self.pregunta = sample(Preguntas.preguntas_literatura,1)
-            self.categoría='Literatura'
+            self.pregunta = sample(Preguntas.preguntas_literatura, 1)
+            self.categoría = 'Literatura'
         elif num == 2:
-            self.pregunta = sample(Preguntas.preguntas_deporte,1)
-            self.categoría='Deporte'
+            self.pregunta = sample(Preguntas.preguntas_deporte, 1)
+            self.categoría = 'Deporte'
         elif num == 3:
-            self.pregunta = sample(Preguntas.preguntas_geografia,1)
-            self.categoría='Geografía'
+            self.pregunta = sample(Preguntas.preguntas_geografia, 1)
+            self.categoría = 'Geografía'
         elif num == 4:
-            self.pregunta = sample(Preguntas.preguntas_arte,1)
-            self.categoría='Arte'
+            self.pregunta = sample(Preguntas.preguntas_arte, 1)
+            self.categoría = 'Arte'
         elif num == 5:
-            self.pregunta = sample(Preguntas.preguntas_entretenimiento,1)
-            self.categoría='Entretenimiento'
+            self.pregunta = sample(Preguntas.preguntas_entretenimiento, 1)
+            self.categoría = 'Entretenimiento'
         else:
-            self.pregunta = sample(Preguntas.preguntas_ciencia,1)
-            self.categoría='Ciencia'
+            self.pregunta = sample(Preguntas.preguntas_ciencia, 1)
+            self.categoría = 'Ciencia'
 
-    #MÉTODO PARA DEVOLVER LA PREGUNTA 
+    # MÉTODO PARA DEVOLVER LA PREGUNTA
     def obtener_pregunta_actual(self):
-        return self.pregunta,self.categoría
+        return self.pregunta, self.categoría
 
 
 if __name__ == '__main__':
