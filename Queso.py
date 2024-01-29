@@ -6,7 +6,7 @@ class Queso:
     def __init__(self):
         self.preguntas = Preguntas()
 
-    def conseguir_queso(categoria: Preguntas.categoría):
+    def conseguir_queso(categoria):
         if categoria == 'deporte':
             pass
 
