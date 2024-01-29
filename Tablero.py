@@ -38,35 +38,34 @@ class Tablero:
 
     # CALCULA LA POSICIÓN DE LA CASILLA PARA ASÍ ELEGIR UNA PREGUNTA
     def posicion_pregunta(self):
-        if self.casilla != 7 and self.casilla != 14 and self.casilla != 21 and self.casilla != 28 and self.casilla != 35 and self.casilla != 42:
-            posicion = self.casilla % 6
-
+        if self.casilla not in [7, 14, 21, 28, 35, 42]:
+            posicion = (self.casilla - 1) % 6
             self.preguntas_instancia.elegir_pregunta(posicion)
-            self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
+            self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
+
         else:
             if self.casilla == 7:
                 self.preguntas_instancia.elegir_pregunta(1)
-                if Tablero.imprimir_posicion_pregunta(self):
+                if self.imprimir_posicion_pregunta():
                     print(
-                        f'Ganaste Queso de la categoría {Preguntas.categoría}')
+                        f'Ganaste Queso de la categoría {self.preguntas_instancia.categoria_actual}')
 
             elif self.casilla == 14:
                 self.preguntas_instancia.elegir_pregunta(2)
-                if Tablero.imprimir_posicion_pregunta(self):
+                if self.imprimir_posicion_pregunta():
                     print(
-                        f'Ganaste Queso de la categoría {Preguntas.categoría}')
+                        f'Ganaste Queso de la categoría {self.preguntas_instancia.categoria_actual}')
 
             elif self.casilla == 21:
                 self.preguntas_instancia.elegir_pregunta(1)
-                if Tablero.imprimir_posicion_pregunta(self):
+                if self.imprimir_posicion_pregunta():
                     print(
-                        f'Ganaste Queso de la categoría {Preguntas.categoría}')
+                        f'Ganaste Queso de la categoría {self.preguntas_instancia.categoria_actual}')
             elif self.casilla == 35:
                 self.preguntas_instancia.elegir_pregunta(1)
-                if Tablero.imprimir_posicion_pregunta(self):
+                if self.imprimir_posicion_pregunta():
                     print(
-                        f'Ganaste Queso de la categoría {Preguntas.categoría}')
-
+                        f'Ganaste Queso de la categoría {self.preguntas_instancia.categoria_actual}')
     # IMPRIME LA PREGUNTA Y DEVUELVE SI ACIERTA O NO
 
     def imprimir_posicion_pregunta(self):
