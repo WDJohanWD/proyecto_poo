@@ -15,7 +15,7 @@ class Tablero:
         self.pregunta_actual = ''
         self.categoría = ''
 
-    # MÉTODO QUE UTILIZAR EL DADO PARA SABER HACIA DONDE MOVERSE SI HACIA ADELANTE O ATRÁS
+    # MÉTODO QUE UTILIZA EL DADO PARA SABER HACIA DONDE MOVERSE SI HACIA ADELANTE O ATRÁS
     def mover(self, Dado=Dado()):
         dado = Dado
         dado_lanzado = dado.lanzar_dado()
