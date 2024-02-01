@@ -6,12 +6,8 @@ class Queso:
     def __init__(self):
         self.preguntas = Preguntas()
 
-<<<<<<< HEAD
-    def conseguir_queso(categoria: str):
-=======
     def conseguir_queso(categoria):
 
->>>>>>> nueva
         if categoria == 'deporte':
             pass
 
