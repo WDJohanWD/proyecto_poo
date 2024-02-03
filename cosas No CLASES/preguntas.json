@@ -1,13 +1,128 @@
 {
-    "deporte": [
+    "preguntas_deporte": [
+        {
+            "enunciado": "¿Cuál es el deporte conocido como el 'rey de los deportes'?",
+            "opciones": ["a) Fútbol", "b) Baloncesto", "c) Golf", "d) Tenis"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué año se celebró por primera vez el Tour de Francia?",
+            "opciones": ["a) 1903", "b) 1920", "c) 1935", "d) 1952"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el país de origen del deporte del sumo?",
+            "opciones": [
+                "a) China",
+                "b) Japón",
+                "c) Mongolia",
+                "d) Corea del Sur"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué deporte se utiliza la expresión 'strike'?",
+            "opciones": [
+                "a) Fútbol Americano",
+                "b) Béisbol",
+                "c) Cricket",
+                "d) Rugby"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuántos jugadores componen un equipo de rugby durante un partido?",
+            "opciones": ["a) 11", "b) 13", "c) 15", "d) 17"],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el deporte nacional de Canadá?",
+            "opciones": [
+                "a) Hockey sobre hielo",
+                "b) Lacrosse",
+                "c) Fútbol",
+                "d) Esquí"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es considerado el mejor jugador de baloncesto de todos los tiempos?",
+            "opciones": [
+                "a) LeBron James",
+                "b) Kobe Bryant",
+                "c) Michael Jordan",
+                "d) Magic Johnson"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿En qué deporte se disputa la Ryder Cup?",
+            "opciones": ["a) Tenis", "b) Golf", "c) Cricket", "d) Ciclismo"],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuántos minutos dura un tiempo reglamentario en un partido de fútbol?",
+            "opciones": ["a) 45", "b) 60", "c) 90", "d) 120"],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿En qué deporte se otorgan medallas olímpicas en las disciplinas de florete, espada y sable?",
+            "opciones": [
+                "a) Atletismo",
+                "b) Natación",
+                "c) Esgrima",
+                "d) Halterofilia"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el equipo de fútbol más exitoso de la historia?",
+            "opciones": [
+                "a) Real Madrid",
+                "b) Barcelona",
+                "c) Manchester United",
+                "d) Bayern Múnich"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuántos jugadores hay en un equipo de fútbol durante un partido?",
+            "opciones": ["a) 10", "b) 11", "c) 12", "d) 9"],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el deporte que se juega con un palo llamado mazo y una bola pequeña?",
+            "opciones": ["a) Golf", "b) Tenis", "c) Críquet", "d) Béisbol"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué país se celebra el torneo de tenis de Wimbledon?",
+            "opciones": [
+                "a) Estados Unidos",
+                "b) Francia",
+                "c) Reino Unido",
+                "d) Australia"
+            ],
+            "respuesta_correcta": "c"
+        },
         {
             "enunciado": "¿En qué país se originó el deporte del cricket?",
-            "opciones": ["a) Inglaterra", "b) India", "c) Australia", "d) Sudáfrica"],
+            "opciones": [
+                "a) Inglaterra",
+                "b) India",
+                "c) Australia",
+                "d) Sudáfrica"
+            ],
             "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿Cuál es el deporte más popular en Brasil?",
-            "opciones": ["a) Fútbol", "b) Voleibol", "c) Baloncesto", "d) Tenis"],
+            "opciones": [
+                "a) Fútbol",
+                "b) Voleibol",
+                "c) Baloncesto",
+                "d) Tenis"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -22,11 +137,126 @@
         },
         {
             "enunciado": "¿Quién es considerado el mejor jugador de tenis de todos los tiempos?",
-            "opciones": ["a) Roger Federer", "b) Rafael Nadal", "c) Novak Djokovic", "d) Serena Williams"],
+            "opciones": [
+                "a) Roger Federer",
+                "b) Rafael Nadal",
+                "c) Novak Djokovic",
+                "d) Serena Williams"
+            ],
             "respuesta_correcta": "a"
         }
     ],
-    "geografia": [
+    "preguntas_geografia": [
+        {
+            "enunciado": "¿Cuál es la capital de Australia?",
+            "opciones": [
+                "a) Sídney",
+                "b) Canberra",
+                "c) Melbourne",
+                "d) Brisbane"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el río que atraviesa la ciudad de París?",
+            "opciones": ["a) Sena", "b) Támesis", "c) Danubio", "d) Rin"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra la Ciudad del Vaticano?",
+            "opciones": ["a) Italia", "b) España", "c) Francia", "d) Suiza"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el punto más bajo de la Tierra?",
+            "opciones": [
+                "a) Montaña Everest",
+                "b) Valle de la Muerte",
+                "c) Cañón del Colorado",
+                "d) Mar Muerto"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál es el país más grande del mundo por área terrestre?",
+            "opciones": [
+                "a) Estados Unidos",
+                "b) Rusia",
+                "c) China",
+                "d) Canadá"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué continente se encuentra el Polo Sur?",
+            "opciones": ["a) África", "b) Antártida", "c) Asia", "d) Europa"],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es la isla más grande del mundo?",
+            "opciones": [
+                "a) Groenlandia",
+                "b) Borneo",
+                "c) Madagascar",
+                "d) Nueva Guinea"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el país con más volcanes activos?",
+            "opciones": ["a) Japón", "b) Italia", "c) Indonesia", "d) México"],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra Machu Picchu?",
+            "opciones": ["a) México", "b) Perú", "c) Colombia", "d) Ecuador"],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es la cadena montañosa más larga del mundo?",
+            "opciones": [
+                "a) Montañas Rocosas",
+                "b) Himalaya",
+                "c) Andes",
+                "d) Alpes"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el océano más grande del mundo?",
+            "opciones": [
+                "a) Atlántico",
+                "b) Índico",
+                "c) Pacífico",
+                "d) Ártico"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es la capital de Japón?",
+            "opciones": ["a) Pekín", "b) Seúl", "c) Tokio", "d) Bangkok"],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el país más grande del mundo en términos de área?",
+            "opciones": [
+                "a) Rusia",
+                "b) Canadá",
+                "c) Estados Unidos",
+                "d) China"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué continente se encuentra el Desierto del Sahara?",
+            "opciones": [
+                "a) África",
+                "b) Asia",
+                "c) América del Norte",
+                "d) Europa"
+            ],
+            "respuesta_correcta": "a"
+        },
         {
             "enunciado": "¿Cuál es el río más largo del mundo?",
             "opciones": ["a) Nilo", "b) Amazonas", "c) Yangtsé", "d) Misisipi"],
@@ -39,12 +269,22 @@
         },
         {
             "enunciado": "¿Cuál es la capital de Canadá?",
-            "opciones": ["a) Ottawa", "b) Toronto", "c) Vancouver", "d) Montreal"],
+            "opciones": [
+                "a) Ottawa",
+                "b) Toronto",
+                "c) Vancouver",
+                "d) Montreal"
+            ],
             "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿Cuál es la montaña más alta del mundo?",
-            "opciones": ["a) Monte Everest", "b) K2", "c) Annapurna", "d) Mont Blanc"],
+            "opciones": [
+                "a) Monte Everest",
+                "b) K2",
+                "c) Annapurna",
+                "d) Mont Blanc"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -53,10 +293,130 @@
             "respuesta_correcta": "c"
         }
     ],
-    "arte": [
+    "preguntas_arte": [
+        {
+            "enunciado": "¿Quién pintó la obra 'La persistencia de la memoria'?",
+            "opciones": [
+                "a) Pablo Picasso",
+                "b) Salvador Dalí",
+                "c) Vincent van Gogh",
+                "d) Claude Monet"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué país nació el escultor Auguste Rodin?",
+            "opciones": ["a) Francia", "b) Italia", "c) España", "d) Alemania"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál de estas obras no fue pintada por Leonardo da Vinci?",
+            "opciones": [
+                "a) La Última Cena",
+                "b) La Mona Lisa",
+                "c) La Noche Estrellada",
+                "d) El Hombre de Vitruvio"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿En qué movimiento artístico se destacó el pintor Claude Monet?",
+            "opciones": [
+                "a) Cubismo",
+                "b) Impresionismo",
+                "c) Renacimiento",
+                "d) Expresionismo"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién es conocido como el fundador del arte pop?",
+            "opciones": [
+                "a) Andy Warhol",
+                "b) Roy Lichtenstein",
+                "c) Jackson Pollock",
+                "d) Piet Mondrian"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál de las siguientes obras es una escultura de Miguel Ángel?",
+            "opciones": [
+                "a) La noche estrellada",
+                "b) El Pensador",
+                "c) La Piedad",
+                "d) El Grito"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Qué famoso arquitecto diseñó la Torre Eiffel en París?",
+            "opciones": [
+                "a) Antoni Gaudí",
+                "b) Gustave Eiffel",
+                "c) Frank Lloyd Wright",
+                "d) Le Corbusier"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es la técnica artística utilizada por Salvador Dalí en 'La persistencia de la memoria'?",
+            "opciones": [
+                "a) Surrealismo",
+                "b) Cubismo",
+                "c) Realismo",
+                "d) Abstracto"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué siglo vivió el pintor Rembrandt?",
+            "opciones": [
+                "a) Siglo XV",
+                "b) Siglo XVII",
+                "c) Siglo XIX",
+                "d) Siglo XX"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién es el autor de la escultura 'El Pensador'?",
+            "opciones": [
+                "a) Auguste Rodin",
+                "b) Michelangelo Buonarroti",
+                "c) Leonardo da Vinci",
+                "d) Donatello"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué período artístico se destacó Leonardo da Vinci?",
+            "opciones": [
+                "a) Renacimiento",
+                "b) Barroco",
+                "c) Romanticismo",
+                "d) Cubismo"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién pintó 'La noche estrellada'?",
+            "opciones": [
+                "a) Leonardo da Vinci",
+                "b) Vincent van Gogh",
+                "c) Pablo Picasso",
+                "d) Claude Monet"
+            ],
+            "respuesta_correcta": "b"
+        },
         {
             "enunciado": "¿Quién pintó la Mona Lisa?",
-            "opciones": ["a) Vincent van Gogh", "b) Leonardo da Vinci", "c) Pablo Picasso", "d) Claude Monet"],
+            "opciones": [
+                "a) Vincent van Gogh",
+                "b) Leonardo da Vinci",
+                "c) Pablo Picasso",
+                "d) Claude Monet"
+            ],
             "respuesta_correcta": "b"
         },
         {
@@ -66,31 +426,271 @@
         },
         {
             "enunciado": "¿Qué movimiento artístico surgió en la década de 1950 con obras de Jackson Pollock y Willem de Kooning?",
-            "opciones": ["a) Renacimiento", "b) Surrealismo", "c) Expresionismo abstracto", "d) Impresionismo"],
+            "opciones": [
+                "a) Renacimiento",
+                "b) Surrealismo",
+                "c) Expresionismo abstracto",
+                "d) Impresionismo"
+            ],
             "respuesta_correcta": "c"
         }
     ],
-    "literatura": [
+    "preguntas_literatura": [
+        {
+            "enunciado": "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
+            "opciones": [
+                "a) William Shakespeare",
+                "b) Miguel de Cervantes",
+                "c) Dante Alighieri",
+                "d) Leo Tolstoy"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el título de la trilogía escrita por J.R.R. Tolkien que incluye 'La Comunidad del Anillo'?",
+            "opciones": [
+                "a) Trilogía del Anillo",
+                "b) Trilogía de la Oscuridad",
+                "c) Trilogía de la Tierra Media",
+                "d) Trilogía de los Elfos"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿En qué siglo vivió el escritor William Shakespeare?",
+            "opciones": [
+                "a) Siglo XV",
+                "b) Siglo XVI",
+                "c) Siglo XVII",
+                "d) Siglo XVIII"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién es el autor de la novela 'Crimen y castigo'?",
+            "opciones": [
+                "a) Fiódor Dostoyevski",
+                "b) León Tolstói",
+                "c) Gustave Flaubert",
+                "d) Charles Dickens"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más famosa de Gabriel García Márquez?",
+            "opciones": [
+                "a) Cien años de soledad",
+                "b) El otoño del patriarca",
+                "c) Crónica de una muerte anunciada",
+                "d) El general en su laberinto"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es conocido como el autor de las historias de Sherlock Holmes?",
+            "opciones": [
+                "a) Agatha Christie",
+                "b) Arthur Conan Doyle",
+                "c) Edgar Allan Poe",
+                "d) Raymond Chandler"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el género literario de la obra 'Orgullo y prejuicio' de Jane Austen?",
+            "opciones": [
+                "a) Novela histórica",
+                "b) Ciencia ficción",
+                "c) Novela romántica",
+                "d) Novela de misterio"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Qué escritor uruguayo recibió el Premio Nobel de Literatura en 1971?",
+            "opciones": [
+                "a) Julio Cortázar",
+                "b) Juan Carlos Onetti",
+                "c) Mario Benedetti",
+                "d) Horacio Quiroga"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué país nació el autor Franz Kafka?",
+            "opciones": [
+                "a) Alemania",
+                "b) Austria",
+                "c) Hungría",
+                "d) República Checa"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Quién escribió 'El señor de las moscas'?",
+            "opciones": [
+                "a) William Golding",
+                "b) George Orwell",
+                "c) J.D. Salinger",
+                "d) Aldous Huxley"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué escritor es conocido como 'El Bardo'?",
+            "opciones": [
+                "a) William Shakespeare",
+                "b) Miguel de Cervantes",
+                "c) Franz Kafka",
+                "d) James Joyce"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el autor de '1984'?",
+            "opciones": [
+                "a) Aldous Huxley",
+                "b) George Orwell",
+                "c) Ray Bradbury",
+                "d) Isaac Asimov"
+            ],
+            "respuesta_correcta": "b"
+        },
         {
             "enunciado": "¿Quién escribió 'Cien años de soledad'?",
-            "opciones": ["a) Gabriel García Márquez", "b) Mario Vargas Llosa", "c) Julio Cortázar", "d) Isabel Allende"],
+            "opciones": [
+                "a) Gabriel García Márquez",
+                "b) Mario Vargas Llosa",
+                "c) Julio Cortázar",
+                "d) Isabel Allende"
+            ],
             "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿Cuál es la obra más famosa de William Shakespeare?",
-            "opciones": ["a) Romeo y Julieta", "b) Hamlet", "c) Macbeth", "d) Otelo"],
+            "opciones": [
+                "a) Romeo y Julieta",
+                "b) Hamlet",
+                "c) Macbeth",
+                "d) Otelo"
+            ],
             "respuesta_correcta": "b"
         },
         {
             "enunciado": "¿En qué país nació el escritor Franz Kafka?",
-            "opciones": ["a) Alemania", "b) Austria", "c) Hungría", "d) República Checa"],
+            "opciones": [
+                "a) Alemania",
+                "b) Austria",
+                "c) Hungría",
+                "d) República Checa"
+            ],
             "respuesta_correcta": "d"
         }
     ],
-    "ciencia": [
+    "preguntas_ciencia": [
+        {
+            "enunciado": "¿Cuál es el planeta más grande de nuestro sistema solar?",
+            "opciones": ["a) Marte", "b) Júpiter", "c) Venus", "d) Saturno"],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el elemento más abundante en la atmósfera terrestre?",
+            "opciones": [
+                "a) Oxígeno",
+                "b) Nitrógeno",
+                "c) Dióxido de carbono",
+                "d) Argón"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuántos huesos tiene el cuerpo humano?",
+            "opciones": ["a) 206", "b) 215", "c) 180", "d) 230"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la unidad básica de la estructura de los seres vivos?",
+            "opciones": ["a) Célula", "b) Átomo", "c) Molécula", "d) Gen"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la velocidad de la luz en el vacío?",
+            "opciones": [
+                "a) 300,000 km/s",
+                "b) 500,000 km/s",
+                "c) 700,000 km/s",
+                "d) 900,000 km/s"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué científico propuso la teoría de la evolución por selección natural?",
+            "opciones": [
+                "a) Charles Darwin",
+                "b) Gregor Mendel",
+                "c) Louis Pasteur",
+                "d) Alfred Russel Wallace"
+            ],
+            "respuesta_correcta": "a"
+        },
         {
             "enunciado": "¿Cuál es el elemento más abundante en la Tierra?",
-            "opciones": ["a) Oxígeno", "b) Hidrógeno", "c) Hierro", "d) Silicio"],
+            "opciones": [
+                "a) Oxígeno",
+                "b) Hidrógeno",
+                "c) Hierro",
+                "d) Silicio"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Qué gas es esencial para la fotosíntesis de las plantas?",
+            "opciones": [
+                "a) Oxígeno",
+                "b) Nitrógeno",
+                "c) Dióxido de carbono",
+                "d) Hidrógeno"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el componente principal del núcleo de un átomo?",
+            "opciones": [
+                "a) Electrones",
+                "b) Protones",
+                "c) Neutrones",
+                "d) Quarks"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué año se descubrió el ADN?",
+            "opciones": ["a) 1952", "b) 1962", "c) 1972", "d) 1982"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el planeta más grande de nuestro sistema solar?",
+            "opciones": ["a) Marte", "b) Júpiter", "c) Saturno", "d) Neptuno"],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién formuló la teoría de la evolución por selección natural?",
+            "opciones": [
+                "a) Charles Darwin",
+                "b) Gregor Mendel",
+                "c) Louis Pasteur",
+                "d) Isaac Newton"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el elemento más abundante en la Tierra?",
+            "opciones": [
+                "a) Oxígeno",
+                "b) Hidrógeno",
+                "c) Hierro",
+                "d) Silicio"
+            ],
             "respuesta_correcta": "b"
         },
         {
@@ -100,29 +700,150 @@
         },
         {
             "enunciado": "¿Qué científico propuso la teoría de la relatividad?",
-            "opciones": ["a) Isaac Newton", "b) Albert Einstein", "c) Galileo Galilei", "d) Stephen Hawking"],
+            "opciones": [
+                "a) Isaac Newton",
+                "b) Albert Einstein",
+                "c) Galileo Galilei",
+                "d) Stephen Hawking"
+            ],
             "respuesta_correcta": "b"
         }
     ],
-    "entretenimiento": [
+    "preguntas_entretenimiento": [
         {
             "enunciado": "¿Cuál es la película más taquillera de todos los tiempos?",
-            "opciones": ["a) Avatar", "b) Avengers: Endgame", "c) Titanic", "d) Star Wars: El despertar de la fuerza"],
+            "opciones": [
+                "a) Avatar",
+                "b) Avengers: Endgame",
+                "c) Titanic",
+                "d) Star Wars: El despertar de la fuerza"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién interpretó a James Bond en 'Skyfall'?",
+            "opciones": [
+                "a) Sean Connery",
+                "b) Daniel Craig",
+                "c) Pierce Brosnan",
+                "d) Roger Moore"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el personaje principal en la serie 'Breaking Bad'?",
+            "opciones": [
+                "a) Walter White",
+                "b) Jesse Pinkman",
+                "c) Saul Goodman",
+                "d) Hank Schrader"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es el creador de la serie 'Stranger Things'?",
+            "opciones": [
+                "a) The Duffer Brothers",
+                "b) J.J. Abrams",
+                "c) Vince Gilligan",
+                "d) Shonda Rhimes"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué año se estrenó la serie de televisión 'The Simpsons'?",
+            "opciones": ["a) 1989", "b) 1991", "c) 1995", "d) 2000"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el videojuego más vendido de todos los tiempos?",
+            "opciones": [
+                "a) Grand Theft Auto V",
+                "b) Minecraft",
+                "c) Tetris",
+                "d) Super Mario Bros"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Quién es el director de la película 'Inception'?",
+            "opciones": [
+                "a) Christopher Nolan",
+                "b) Quentin Tarantino",
+                "c) Steven Spielberg",
+                "d) Martin Scorsese"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la serie de anime más popular de todos los tiempos?",
+            "opciones": [
+                "a) Dragon Ball Z",
+                "b) Naruto",
+                "c) One Piece",
+                "d) Attack on Titan"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Quién interpretó a Tony Stark en la saga de películas de Marvel?",
+            "opciones": [
+                "a) Chris Hemsworth",
+                "b) Chris Evans",
+                "c) Robert Downey Jr.",
+                "d) Mark Ruffalo"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el juego de mesa más vendido de la historia?",
+            "opciones": ["a) Monopoly", "b) Scrabble", "c) Risk", "d) Uno"],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién interpretó a Jack Dawson en la película 'Titanic'?",
+            "opciones": [
+                "a) Leonardo DiCaprio",
+                "b) Tom Hanks",
+                "c) Johnny Depp",
+                "d) Brad Pitt"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del protagonista en la serie 'Breaking Bad'?",
+            "opciones": [
+                "a) Walter White",
+                "b) Jesse Pinkman",
+                "c) Saul Goodman",
+                "d) Hank Schrader"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la película más taquillera de todos los tiempos?",
+            "opciones": [
+                "a) Avatar",
+                "b) Avengers: Endgame",
+                "c) Titanic",
+                "d) Star Wars: El despertar de la fuerza"
+            ],
             "respuesta_correcta": "b"
         },
         {
             "enunciado": "¿Quién interpretó a James Bond en 'Casino Royale'?",
-            "opciones": ["a) Sean Connery", "b) Daniel Craig", "c) Pierce Brosnan", "d) Roger Moore"],
+            "opciones": [
+                "a) Sean Connery",
+                "b) Daniel Craig",
+                "c) Pierce Brosnan",
+                "d) Roger Moore"
+            ],
             "respuesta_correcta": "b"
         },
         {
             "enunciado": "¿En qué año se estrenó la serie de televisión 'Friends'?",
             "opciones": ["a) 1994", "b) 1996", "c) 1998", "d) 2000"],
             "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál es la serie de televisión más vista de todos los tiempos?",
-            "opciones": ["a) Breaking Bad", "b) Game of Thrones", "c) The Sopranos", "d) Friends"],
-            "respuesta_correcta": "d"
-            }
-        ]}
+        }
+    ]
+}

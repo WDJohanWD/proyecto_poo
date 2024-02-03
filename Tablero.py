@@ -16,12 +16,12 @@ class Tablero:
         self.categoría = ''
 
     # MÉTODO QUE UTILIZA EL DADO PARA SABER HACIA DONDE MOVERSE SI HACIA ADELANTE O ATRÁS
-    def mover(self, Dado=Dado()):
-        dado = Dado
+    def mover(self):
+        dado = Dado()
         dado_lanzado = dado.lanzar_dado()
         while True:
             movimiento = input(
-                f'Estás en la casilla { self.casilla} Quieres AVANZAR o RETROCEDER: {dado_lanzado} casillas ').lower()
+                f'Estás en la casilla {self.casilla} Quieres AVANZAR o RETROCEDER: {dado_lanzado} casillas ').lower()
             num_movimiento = 0
             if movimiento == 'avanzar':
                 num_movimiento = self.casilla + dado_lanzado
@@ -40,13 +40,14 @@ class Tablero:
     def imprimir_posicion_pregunta(self):
         if self.pregunta_actual:
             print(f'La categoría es {self.categoría}')
-            print(f"\n{self.pregunta_actual[0]['enunciado']}")
-            for opcion in self.pregunta_actual[0]['opciones']:
+            print(f"\n{self.pregunta_actual['enunciado']}")
+            for opcion in self.pregunta_actual['opciones']:
+
                 print(opcion)
 
             respuesta_usuario = input("Tu respuesta: ").lower()
 
-            return respuesta_usuario == self.pregunta_actual[0]['respuesta_correcta']
+            return respuesta_usuario == self.pregunta_actual['respuesta_correcta']
 
         return False
 
