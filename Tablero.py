@@ -14,6 +14,7 @@ class Tablero:
         self.preguntas_instancia = Preguntas()
         self.pregunta_actual = ''
         self.categoría = ''
+        self.queso_instancia = Queso()
 
     # MÉTODO QUE UTILIZA EL DADO PARA SABER HACIA DONDE MOVERSE SI HACIA ADELANTE O ATRÁS
     def mover(self):
@@ -59,42 +60,56 @@ class Tablero:
             self.preguntas_instancia.elegir_pregunta(posicion)
             self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
         else:
-            Tablero.calcular_quesos(self)
+            self.calcular_quesos()
+            self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
 
     def calcular_quesos(self):
         if self.casilla == 7:
             self.preguntas_instancia.elegir_pregunta(1)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(
-                    f'Ganaste Queso de la categoría {self.categoría}')
+            self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
+
+            if self.imprimir_posicion_pregunta():
+                self.queso_instancia.conseguir_queso(self.categoría)
+                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
 
         elif self.casilla == 14:
             self.preguntas_instancia.elegir_pregunta(2)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(
-                    f'Ganaste Queso de la categoría {self.categoría}')
+            self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
 
+            if self.imprimir_posicion_pregunta():
+                self.queso_instancia.conseguir_queso(self.categoría)
+                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
         elif self.casilla == 21:
             self.preguntas_instancia.elegir_pregunta(3)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(
-                    f'Ganaste Queso de la categoría {self.categoría}')
+            self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
+
+            if self.imprimir_posicion_pregunta():
+                self.queso_instancia.conseguir_queso(self.categoría)
+                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
+
         elif self.casilla == 28:
             self.preguntas_instancia.elegir_pregunta(4)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(
-                    f'Ganaste Queso de la categoría {self.categoría}')
+            self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
+
+            if self.imprimir_posicion_pregunta():
+                self.queso_instancia.conseguir_queso(self.categoría)
+                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
 
         elif self.casilla == 35:
             self.preguntas_instancia.elegir_pregunta(5)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(
-                    f'Ganaste Queso de la categoría {self.categoría}')
+            self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
+
+            if self.imprimir_posicion_pregunta():
+                self.queso_instancia.conseguir_queso(self.categoría)
+                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
+
         elif self.casilla == 42:
             self.preguntas_instancia.elegir_pregunta(6)
-            if Tablero.imprimir_posicion_pregunta(self):
-                print(
-                    f'Ganaste Queso de la categoría {self.categoría}')
+            self.pregunta_actual, self.categoría = self.preguntas_instancia.obtener_pregunta_actual()
+
+            if self.imprimir_posicion_pregunta():
+                self.queso_instancia.conseguir_queso(self.categoría)
+                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
 
 
 if __name__ == '__main__':
