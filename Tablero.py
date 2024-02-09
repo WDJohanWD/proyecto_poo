@@ -9,8 +9,8 @@ class Tablero:
     preguntas_instancia: Preguntas
 
     # MÉTODO CONSTRUCTOR
-    def __init__(self, casilla=0) -> None:
-        self.casilla = casilla
+    def __init__(self) -> None:
+        self.casilla = 0
         self.preguntas_instancia = Preguntas()
         self.pregunta_actual = ''
         self.categoría = ''
