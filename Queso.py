@@ -23,6 +23,7 @@ class Queso:
         return len(self.quesos_obtenidos)
 
     def ha_ganado(self) -> bool:
-        #Verifica si el jugador ha ganado todos los quesos disponibles.
-        return len(self.quesos_obtenidos) == len(self.categoria)
+        # Verifica si el jugador ha ganado todos los quesos disponibles.
+        
+        return len(self.quesos_obtenidos) == 6
 

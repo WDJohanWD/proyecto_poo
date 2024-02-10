@@ -102,8 +102,23 @@ if __name__ == "__main__":
     tablero_jugador1 = Tablero(jugador1)
     tablero_jugador2 = Tablero(jugador2)
     
+    
+    print(f"\nTurno de {jugador1.nombre}:")
+    tablero_jugador1.mover()
+    tablero_jugador1.posicion_pregunta()
+    while tablero_jugador1.imprimir_posicion_pregunta():
+        tablero_jugador1.mover()
+        tablero_jugador1.posicion_pregunta()
+
+    print(f"\nTurno de {jugador2.nombre}:")
+    tablero_jugador2.mover()
+    tablero_jugador2.posicion_pregunta()
+    while tablero_jugador2.imprimir_posicion_pregunta():
+        tablero_jugador2.mover()
+        tablero_jugador2.posicion_pregunta()
+    
     # Iteramos hasta que uno de los jugadores gane
-    while not jugador1.ha_ganado() and not jugador2.ha_ganado():
+    while not tablero_jugador1.queso_instancia.ha_ganado() and not tablero_jugador2.queso_instancia.ha_ganado():
         # Turno del jugador 1
         print(f"\nTurno de {jugador1.nombre}:")
         tablero_jugador1.mover()
@@ -113,7 +128,7 @@ if __name__ == "__main__":
             tablero_jugador1.posicion_pregunta()
         
         # Si el jugador 1 ganó, salimos del bucle
-        if jugador1.ha_ganado():
+        if tablero_jugador1.queso_instancia.ha_ganado():
             print(f"\n¡{jugador1.nombre} ha ganado!")
             break
         
@@ -126,6 +141,7 @@ if __name__ == "__main__":
             tablero_jugador2.posicion_pregunta()
         
         # Si el jugador 2 ganó, salimos del bucle
-        if jugador2.ha_ganado():
+        if tablero_jugador2.queso_instancia.ha_ganado():
             print(f"\n¡{jugador2.nombre} ha ganado!")
             break
+
