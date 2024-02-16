@@ -1,9 +1,23 @@
 from Dado import Dado
 from Queso import Queso
 from Preguntas import Preguntas
-from jugador import Jugador
 class Tablero:
-    def __init__(self, jugador) -> None:
+    CASILLAS:int=42
+    CASILLA_DEP:int=7
+    CASILLA_GEO:int=14
+    CASILLA_ART:int=21
+    CASILLA_LIT:int=28
+    CASILLA_CIE:int=35
+    CASILLA_ENT:int=42
+    casilla:int
+    jugador:object
+    preguntas_instancia:Preguntas
+    queso_instancia:Queso
+    categoria:str
+    pregunta_actual:dict
+    
+    
+    def __init__(self, jugador:object) -> None:
         self.casilla = 0
         self.jugador = jugador
         self.preguntas_instancia = Preguntas()
@@ -20,11 +34,11 @@ class Tablero:
             num_movimiento = 0
             if movimiento == 'avanzar':
                 num_movimiento = self.casilla + dado_lanzado
-                self.casilla = num_movimiento % 42
+                self.casilla = num_movimiento % Tablero.CASILLAS
                 break
             elif movimiento == 'retroceder':
                 if self.casilla - dado_lanzado < 0:
-                    self.casilla = 42 - (dado_lanzado - self.casilla)
+                    self.casilla = Tablero.CASILLAS - (dado_lanzado - self.casilla)
                 else:
                     self.casilla = self.casilla - dado_lanzado
                 break
@@ -43,105 +57,35 @@ class Tablero:
 
         return False
 
+
     def posicion_pregunta(self) -> None:
-        if self.casilla not in [7, 14, 21, 28, 35, 42]:
+        if self.casilla not in [Tablero.CASILLA_DEP, Tablero.CASILLA_GEO, Tablero.CASILLA_ART,
+                                Tablero.CASILLA_LIT, Tablero.CASILLA_CIE, Tablero.CASILLA_ENT]:
             posicion = self.casilla % 6
             self.preguntas_instancia.elegir_pregunta(posicion)
             self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
         else:
             self.calcular_quesos()
-            self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
 
     def calcular_quesos(self) -> None:
-        if self.casilla == 7:
-            self.preguntas_instancia.elegir_pregunta(1)
-            self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
-            if self.imprimir_posicion_pregunta():
-                self.queso_instancia.conseguir_queso(self.categoria)
-                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
-        elif self.casilla == 14:
-            self.preguntas_instancia.elegir_pregunta(2)
-            self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
-            if self.imprimir_posicion_pregunta():
-                self.queso_instancia.conseguir_queso(self.categoria)
-                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
-        elif self.casilla == 21:
-            self.preguntas_instancia.elegir_pregunta(3)
-            self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
-            if self.imprimir_posicion_pregunta():
-                self.queso_instancia.conseguir_queso(self.categoria)
-                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
-        elif self.casilla == 28:
-            self.preguntas_instancia.elegir_pregunta(4)
-            self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
-            if self.imprimir_posicion_pregunta():
-                self.queso_instancia.conseguir_queso(self.categoria)
-                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
-        elif self.casilla == 35:
-            self.preguntas_instancia.elegir_pregunta(5)
-            self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
-            if self.imprimir_posicion_pregunta():
-                self.queso_instancia.conseguir_queso(self.categoria)
-                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
-        elif self.casilla == 42:
-            self.preguntas_instancia.elegir_pregunta(6)
-            self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
-            if self.imprimir_posicion_pregunta():
-                self.queso_instancia.conseguir_queso(self.categoria)
-                print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
+        if self.casilla == Tablero.CASILLA_DEP:
+            self.procesar_pregunta(1)
+        elif self.casilla == Tablero.CASILLA_GEO:
+            self.procesar_pregunta(2)
+        elif self.casilla == Tablero.CASILLA_ART:
+            self.procesar_pregunta(3)
+        elif self.casilla == Tablero.CASILLA_LIT:
+            self.procesar_pregunta(4)
+        elif self.casilla == Tablero.CASILLA_CIE:
+            self.procesar_pregunta(5)
+        elif self.casilla == Tablero.CASILLA_ENT:
+            self.procesar_pregunta(6)
+            
+    def procesar_pregunta(self, indice: int) -> None:
+        self.preguntas_instancia.elegir_pregunta(indice)
+        self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
+        if self.imprimir_posicion_pregunta():
+            self.queso_instancia.conseguir_queso(self.categoria)
+            print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
 
-        
-
-
-if __name__ == "__main__":
-    # Creamos dos jugadores
-    jugador1 = Jugador("Jugador 1")
-    jugador2 = Jugador("Jugador 2")
-    
-    # Creamos un tablero para cada jugador
-    tablero_jugador1 = Tablero(jugador1)
-    tablero_jugador2 = Tablero(jugador2)
-    
-    
-    print(f"\nTurno de {jugador1.nombre}:")
-    tablero_jugador1.mover()
-    tablero_jugador1.posicion_pregunta()
-    while tablero_jugador1.imprimir_posicion_pregunta():
-        tablero_jugador1.mover()
-        tablero_jugador1.posicion_pregunta()
-
-    print(f"\nTurno de {jugador2.nombre}:")
-    tablero_jugador2.mover()
-    tablero_jugador2.posicion_pregunta()
-    while tablero_jugador2.imprimir_posicion_pregunta():
-        tablero_jugador2.mover()
-        tablero_jugador2.posicion_pregunta()
-    
-    # Iteramos hasta que uno de los jugadores gane
-    while not tablero_jugador1.queso_instancia.ha_ganado() and not tablero_jugador2.queso_instancia.ha_ganado():
-        # Turno del jugador 1
-        print(f"\nTurno de {jugador1.nombre}:")
-        tablero_jugador1.mover()
-        tablero_jugador1.posicion_pregunta()
-        while tablero_jugador1.imprimir_posicion_pregunta():
-            tablero_jugador1.mover()
-            tablero_jugador1.posicion_pregunta()
-        
-        # Si el jugador 1 ganó, salimos del bucle
-        if tablero_jugador1.queso_instancia.ha_ganado():
-            print(f"\n¡{jugador1.nombre} ha ganado!")
-            break
-        
-        # Turno del jugador 2
-        print(f"\nTurno de {jugador2.nombre}:")
-        tablero_jugador2.mover()
-        tablero_jugador2.posicion_pregunta()
-        while tablero_jugador2.imprimir_posicion_pregunta():
-            tablero_jugador2.mover()
-            tablero_jugador2.posicion_pregunta()
-        
-        # Si el jugador 2 ganó, salimos del bucle
-        if tablero_jugador2.queso_instancia.ha_ganado():
-            print(f"\n¡{jugador2.nombre} ha ganado!")
-            break
 

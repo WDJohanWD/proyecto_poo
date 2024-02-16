@@ -4,11 +4,14 @@ class Queso:
     quesos_obtenidos: set
 
     def __init__(self):
+        #Método constructor
         self.categoria = ''
         self.quesos_obtenidos = set()
 
     def conseguir_queso(self, categoria: str) -> bool:
-        #Intenta obtener un queso de una categoría específica.
+        #Calcula e imprime si ha conseguido o no un queso para que no pueda conseguir dos quesos 
+        #de la misma categoría
+        
         self.categoria = categoria
         if categoria not in self.quesos_obtenidos:
             print(f'¡Ganaste Queso de la categoría {categoria}!')
