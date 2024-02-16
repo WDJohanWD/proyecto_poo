@@ -9,6 +9,7 @@ class Tablero:
     CASILLA_LIT:int=28
     CASILLA_CIE:int=35
     CASILLA_ENT:int=42
+    LISTA_CASILLAS:list =[CASILLA_DEP,CASILLA_GEO,CASILLA_ART,CASILLA_LIT,CASILLA_CIE,CASILLA_ENT]
     casilla:int
     jugador:object
     preguntas_instancia:Preguntas
@@ -61,7 +62,7 @@ class Tablero:
     def posicion_pregunta(self) -> None:
         if self.casilla not in [Tablero.CASILLA_DEP, Tablero.CASILLA_GEO, Tablero.CASILLA_ART,
                                 Tablero.CASILLA_LIT, Tablero.CASILLA_CIE, Tablero.CASILLA_ENT]:
-            posicion = self.casilla % 6
+            posicion = self.casilla % len(Tablero.LISTA_CASILLAS)
             self.preguntas_instancia.elegir_pregunta(posicion)
             self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
         else:
