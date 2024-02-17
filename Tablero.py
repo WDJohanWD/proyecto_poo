@@ -65,8 +65,10 @@ class Tablero:
             posicion = self.casilla % len(Tablero.LISTA_CASILLAS)
             self.preguntas_instancia.elegir_pregunta(posicion)
             self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
+            self.imprimir_posicion_pregunta()  # Llamamos a imprimir solo aquí
         else:
             self.calcular_quesos()
+
 
     def calcular_quesos(self) -> None:
         if self.casilla == Tablero.CASILLA_DEP:
