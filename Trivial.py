@@ -2,9 +2,11 @@ from jugador import Jugador
 from Tablero import Tablero
 
 if __name__ == "__main__":
+    nombre1= input('Introduce el nombre del jugador 1: ')
+    nombre2= input('Introduce el nombre del jugador 2: ')
     # Creamos dos jugadores
-    jugador1 = Jugador("Jugador 1")
-    jugador2 = Jugador("Jugador 2")
+    jugador1 = Jugador(nombre1)
+    jugador2 = Jugador(nombre2)
     
     # Creamos un tablero para cada jugador
     tablero_jugador1 = Tablero(jugador1)
@@ -24,7 +26,7 @@ if __name__ == "__main__":
             break
         
         # Turno del jugador 2
-        print(f"\nTurno de {jugador2.nombre}:")
+        print(f"Turno de {jugador2.nombre}:")
         tablero_jugador2.mover()
         tablero_jugador2.posicion_pregunta()
         
