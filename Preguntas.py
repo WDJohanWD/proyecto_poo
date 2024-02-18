@@ -9,7 +9,8 @@ class Preguntas:
 
     def __init__(self) -> None:
         #Inicializa el objeto Preguntas.
-        with open('cosas No CLASES\preguntas.json', 'r', encoding='utf-8') as archivo:
+        with open('.\\cosas No CLASES\\preguntas.json', 'r', encoding='utf-8') as archivo:
+
             self.preguntas = json.load(archivo)
 
         self.categorias = list(self.preguntas.keys())
@@ -25,8 +26,3 @@ class Preguntas:
         #Devuelve la pregunta actual y su categoría.
         return self.pregunta, self.categoria_actual
  
-if __name__=='__main__':
-    obt=Preguntas()
-    print(len(obt.categorias))
-    print(obt.categorias[1-1])
-    
