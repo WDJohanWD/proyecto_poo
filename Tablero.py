@@ -50,7 +50,7 @@ class Tablero:
             return respuesta_usuario == self.pregunta_actual['respuesta_correcta']
 
         return False
-
+ 
     def posicion_pregunta(self) -> None:
         if self.casilla not in [Tablero.CASILLA_DEP, Tablero.CASILLA_GEO, Tablero.CASILLA_ART,
                                 Tablero.CASILLA_LIT, Tablero.CASILLA_CIE, Tablero.CASILLA_ENT]:
