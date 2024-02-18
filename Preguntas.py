@@ -16,7 +16,7 @@ class Preguntas:
         self.categorias = list(self.preguntas.keys())
         self.categoria_actual = ''
         self.pregunta = {}
-
+    
     def elegir_pregunta(self, num: int) -> None:
         #Elige una pregunta aleatoria.
         self.categoria_actual = self.categorias[num-1]
