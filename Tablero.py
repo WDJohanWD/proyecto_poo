@@ -19,6 +19,7 @@ class Tablero:
         self.pregunta_actual: dict = {}
         self.categoria: str = ''
         self.queso_instancia: Queso = Queso()
+        self.respuesta_usuario=''
 
     def mover(self) -> None:
         dado: Dado = Dado()
@@ -39,18 +40,18 @@ class Tablero:
             else:
                 print("Por favor, escribe 'avanzar' o 'retroceder'.")
 
-    def imprimir_posicion_pregunta(self) -> bool:
+    def imprimir_posicion_pregunta(self):
         if self.pregunta_actual:
             print(f'\nLa categoría es {self.categoria}')
             print(f"\n{self.pregunta_actual['enunciado']}")
             for opcion in self.pregunta_actual['opciones']:
                 print(opcion)
 
-            respuesta_usuario: str = input("Tu respuesta: ").lower()
-            return respuesta_usuario == self.pregunta_actual['respuesta_correcta']
-
-        return False
- 
+            self.respuesta_usuario: str = input("Tu respuesta: ").lower()
+            
+    def verificar_respuesta(self)-> bool:
+        return self.respuesta_usuario == self.pregunta_actual['respuesta_correcta']
+        
     def posicion_pregunta(self) -> None:
         if self.casilla not in [Tablero.CASILLA_DEP, Tablero.CASILLA_GEO, Tablero.CASILLA_ART,
                                 Tablero.CASILLA_LIT, Tablero.CASILLA_CIE, Tablero.CASILLA_ENT]:
