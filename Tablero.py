@@ -77,6 +77,6 @@ class Tablero:
     def procesar_pregunta(self, indice: int) -> None:
         self.preguntas_instancia.elegir_pregunta(indice)
         self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
-        if self.imprimir_posicion_pregunta():
+        if self.verificar_respuesta():
             self.queso_instancia.conseguir_queso(self.categoria)
             print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')

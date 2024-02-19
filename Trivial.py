@@ -1,4 +1,4 @@
-from jugador import Jugador
+from Jugador import Jugador
 from Tablero import Tablero
 
 if __name__ == "__main__":
@@ -47,3 +47,5 @@ if __name__ == "__main__":
         if tablero_jugador2.queso_instancia.ha_ganado():
             print(f"\n¡{jugador2.nombre} ha ganado!")
             break
+    
+    print(f"El jugador {jugador1} obtuvo {tablero_jugador1.queso_instancia.cantidad_quesos()} y el jugador {jugador2} obtuvo {tablero_jugador2.queso_instancia.cantidad_quesos()}")
