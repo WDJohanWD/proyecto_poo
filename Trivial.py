@@ -1,4 +1,4 @@
-from Jugador import Jugador
+from jugador import Jugador
 from Tablero import Tablero
 
 if __name__ == "__main__":

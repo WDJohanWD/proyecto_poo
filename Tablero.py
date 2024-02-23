@@ -53,8 +53,7 @@ class Tablero:
         return self.respuesta_usuario == self.pregunta_actual['respuesta_correcta']
         
     def posicion_pregunta(self) -> None:
-        if self.casilla not in [Tablero.CASILLA_DEP, Tablero.CASILLA_GEO, Tablero.CASILLA_ART,
-                                Tablero.CASILLA_LIT, Tablero.CASILLA_CIE, Tablero.CASILLA_ENT]:
+        if self.casilla not in Tablero.LISTA_CASILLAS:
             posicion: int = self.casilla % len(Tablero.LISTA_CASILLAS)
             self.preguntas_instancia.elegir_pregunta(posicion)
             self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
@@ -71,12 +70,12 @@ class Tablero:
             Tablero.CASILLA_CIE: 5,
             Tablero.CASILLA_ENT: 6
         }
-        if self.casilla in casilla_especial:
-            self.procesar_pregunta(casilla_especial[self.casilla])
+        self.procesar_pregunta(casilla_especial[self.casilla])
 
     def procesar_pregunta(self, indice: int) -> None:
         self.preguntas_instancia.elegir_pregunta(indice)
         self.pregunta_actual, self.categoria = self.preguntas_instancia.obtener_pregunta_actual()
+        self.imprimir_posicion_pregunta()
         if self.verificar_respuesta():
             self.queso_instancia.conseguir_queso(self.categoria)
             print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
