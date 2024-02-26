@@ -1,5 +1,6 @@
 from jugador import Jugador
 from Tablero import Tablero
+from Historial import Historial
 
 if __name__ == "__main__":
     nombre1 = input('Introduce el nombre del jugador 1: ')
@@ -48,4 +49,5 @@ if __name__ == "__main__":
             print(f"\n¡{jugador2.nombre} ha ganado!")
             break
     
-    print(f"El jugador {jugador1} obtuvo {tablero_jugador1.queso_instancia.cantidad_quesos()} y el jugador {jugador2} obtuvo {tablero_jugador2.queso_instancia.cantidad_quesos()}")
+    resultado= f"El jugador {jugador1} obtuvo {tablero_jugador1.queso_instancia.cantidad_quesos()} y el jugador {jugador2} obtuvo {tablero_jugador2.queso_instancia.cantidad_quesos()}"
+    Historial.guardar_en_historial(resultado)
