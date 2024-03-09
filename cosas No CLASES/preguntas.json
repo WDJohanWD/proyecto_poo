@@ -2,12 +2,22 @@
     "preguntas_deporte": [
         {
             "enunciado": "¿Cuál es el deporte conocido como el 'rey de los deportes'?",
-            "opciones": ["a) Fútbol", "b) Baloncesto", "c) Golf", "d) Tenis"],
+            "opciones": [
+                "a) Fútbol",
+                "b) Baloncesto",
+                "c) Golf",
+                "d) Tenis"
+            ],
             "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿En qué año se celebró por primera vez el Tour de Francia?",
-            "opciones": ["a) 1903", "b) 1920", "c) 1935", "d) 1952"],
+            "opciones": [
+                "a) 1903",
+                "b) 1920",
+                "c) 1935",
+                "d) 1952"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -32,7 +42,12 @@
         },
         {
             "enunciado": "¿Cuántos jugadores componen un equipo de rugby durante un partido?",
-            "opciones": ["a) 11", "b) 13", "c) 15", "d) 17"],
+            "opciones": [
+                "a) 11",
+                "b) 13",
+                "c) 15",
+                "d) 17"
+            ],
             "respuesta_correcta": "c"
         },
         {
@@ -57,12 +72,22 @@
         },
         {
             "enunciado": "¿En qué deporte se disputa la Ryder Cup?",
-            "opciones": ["a) Tenis", "b) Golf", "c) Cricket", "d) Ciclismo"],
+            "opciones": [
+                "a) Tenis",
+                "b) Golf",
+                "c) Cricket",
+                "d) Ciclismo"
+            ],
             "respuesta_correcta": "b"
         },
         {
             "enunciado": "¿Cuántos minutos dura un tiempo reglamentario en un partido de fútbol?",
-            "opciones": ["a) 45", "b) 60", "c) 90", "d) 120"],
+            "opciones": [
+                "a) 45",
+                "b) 60",
+                "c) 90",
+                "d) 120"
+            ],
             "respuesta_correcta": "c"
         },
         {
@@ -87,12 +112,22 @@
         },
         {
             "enunciado": "¿Cuántos jugadores hay en un equipo de fútbol durante un partido?",
-            "opciones": ["a) 10", "b) 11", "c) 12", "d) 9"],
+            "opciones": [
+                "a) 10",
+                "b) 11",
+                "c) 12",
+                "d) 9"
+            ],
             "respuesta_correcta": "b"
         },
         {
             "enunciado": "¿Cuál es el deporte que se juega con un palo llamado mazo y una bola pequeña?",
-            "opciones": ["a) Golf", "b) Tenis", "c) Críquet", "d) Béisbol"],
+            "opciones": [
+                "a) Golf",
+                "b) Tenis",
+                "c) Críquet",
+                "d) Béisbol"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -127,12 +162,22 @@
         },
         {
             "enunciado": "¿Cuántos jugadores hay en un equipo de baloncesto durante un juego?",
-            "opciones": ["a) 5", "b) 6", "c) 7", "d) 8"],
+            "opciones": [
+                "a) 5",
+                "b) 6",
+                "c) 7",
+                "d) 8"
+            ],
             "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿En qué año se celebró la primera Copa Mundial de la FIFA?",
-            "opciones": ["a) 1930", "b) 1950", "c) 1970", "d) 1990"],
+            "opciones": [
+                "a) 1930",
+                "b) 1950",
+                "c) 1970",
+                "d) 1990"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -144,6 +189,306 @@
                 "d) Serena Williams"
             ],
             "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el único país que ha participado en cada edición de los Juegos Olímpicos modernos?",
+            "opciones": [
+                "a) Estados Unidos",
+                "b) Reino Unido",
+                "c) Grecia",
+                "d) Australia"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Quién es el máximo goleador en la historia de la Copa del Mundo de la FIFA?",
+            "opciones": [
+                "a) Lionel Messi",
+                "b) Cristiano Ronaldo",
+                "c) Pelé",
+                "d) Miroslav Klose"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿En qué deporte se utiliza el término 'ace' para describir un saque imposible de devolver?",
+            "opciones": [
+                "a) Tenis",
+                "b) Voleibol",
+                "c) Bádminton",
+                "d) Squash"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el deporte que se juega en un campo llamado 'cancha de pádel'?",
+            "opciones": [
+                "a) Tenis",
+                "b) Pádel",
+                "c) Squash",
+                "d) Bádminton"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el único deporte que ha sido jugado en la Luna?",
+            "opciones": [
+                "a) Fútbol",
+                "b) Golf",
+                "c) Béisbol",
+                "d) Carreras de coches"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué país se originó el deporte del hockey sobre hielo?",
+            "opciones": [
+                "a) Canadá",
+                "b) Suecia",
+                "c) Rusia",
+                "d) Estados Unidos"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es el jugador de baloncesto más alto de la historia de la NBA?",
+            "opciones": [
+                "a) Shaquille O'Neal",
+                "b) Yao Ming",
+                "c) Manute Bol",
+                "d) Gheorghe Mureșan"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Qué equipo ganó la primera edición de la Copa Mundial de Rugby?",
+            "opciones": [
+                "a) Sudáfrica",
+                "b) Nueva Zelanda",
+                "c) Australia",
+                "d) Inglaterra"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál es el deporte principal en los Juegos Paralímpicos?",
+            "opciones": [
+                "a) Atletismo",
+                "b) Baloncesto en silla de ruedas",
+                "c) Natación",
+                "d) Esquí alpino"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué deporte se disputa la Copa del Mundo de Cricket?",
+            "opciones": [
+                "a) Australia",
+                "b) Inglaterra",
+                "c) India",
+                "d) Sudáfrica"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el deporte que se juega en una pista llamada 'velódromo'?",
+            "opciones": [
+                "a) Ciclismo de montaña",
+                "b) Ciclismo de pista",
+                "c) Ciclismo de ruta",
+                "d) BMX"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué deporte se compite por el Trofeo Larry O'Brien?",
+            "opciones": [
+                "a) Fútbol Americano",
+                "b) Baloncesto",
+                "c) Béisbol",
+                "d) Fútbol"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Qué deporte practica un 'jinete'?",
+            "opciones": [
+                "a) Golf",
+                "b) Polo",
+                "c) Tiro con arco",
+                "d) Surf"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién es el único atleta en ganar medallas de oro en 100m, 200m y salto de longitud en una misma Olimpiada?",
+            "opciones": [
+                "a) Usain Bolt",
+                "b) Carl Lewis",
+                "c) Jesse Owens",
+                "d) Michael Johnson"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿En qué deporte se juega la 'Copa América'?",
+            "opciones": [
+                "a) Fútbol",
+                "b) Rugby",
+                "c) Cricket",
+                "d) Vela"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál es el deporte más antiguo registrado en la historia?",
+            "opciones": [
+                "a) Lucha libre",
+                "b) Atletismo",
+                "c) Natación",
+                "d) Esgrima"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuántos jugadores componen un equipo de waterpolo durante un partido?",
+            "opciones": [
+                "a) 6",
+                "b) 7",
+                "c) 8",
+                "d) 9"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el equipo más exitoso en la historia de la NBA en términos de campeonatos ganados?",
+            "opciones": [
+                "a) Boston Celtics",
+                "b) Los Angeles Lakers",
+                "c) Chicago Bulls",
+                "d) Golden State Warriors"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué equipo ha ganado más veces la Liga de Campeones de la UEFA?",
+            "opciones": [
+                "a) Real Madrid",
+                "b) FC Barcelona",
+                "c) Bayern Múnich",
+                "d) AC Milan"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es el único jugador de la NBA en ganar el premio MVP y el premio al Jugador Defensivo del Año en la misma temporada?",
+            "opciones": [
+                "a) Michael Jordan",
+                "b) LeBron James",
+                "c) Hakeem Olajuwon",
+                "d) Kevin Garnett"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el único equipo de fútbol en haber ganado el Mundial de Clubes de la FIFA en tres ocasiones consecutivas?",
+            "opciones": [
+                "a) FC Barcelona",
+                "b) Real Madrid",
+                "c) Bayern Múnich",
+                "d) Manchester United"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué país se originó el deporte del béisbol?",
+            "opciones": [
+                "a) Estados Unidos",
+                "b) Canadá",
+                "c) Cuba",
+                "d) México"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué jugador de golf es conocido como 'El Tigre'?",
+            "opciones": [
+                "a) Rory McIlroy",
+                "b) Phil Mickelson",
+                "c) Jordan Spieth",
+                "d) Tiger Woods"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál es la duración oficial de un partido de fútbol americano de la NFL?",
+            "opciones": [
+                "a) 60 minutos",
+                "b) 90 minutos",
+                "c) 120 minutos",
+                "d) 45 minutos"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué país se celebra el Gran Premio de Mónaco de Fórmula 1?",
+            "opciones": [
+                "a) Francia",
+                "b) Italia",
+                "c) España",
+                "d) Mónaco"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál es el deporte más popular en la India?",
+            "opciones": [
+                "a) Críquet",
+                "b) Fútbol",
+                "c) Hockey sobre hierba",
+                "d) Tenis"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el torneo de tenis más antiguo del mundo?",
+            "opciones": [
+                "a) Wimbledon",
+                "b) Abierto de Australia",
+                "c) Abierto de Estados Unidos",
+                "d) Roland Garros"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién ganó la medalla de oro en atletismo en los Juegos Olímpicos de Berlín 1936, ante la presencia de Adolf Hitler?",
+            "opciones": [
+                "a) Jesse Owens",
+                "b) Usain Bolt",
+                "c) Carl Lewis",
+                "d) Michael Johnson"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el deporte oficial del país de Nueva Zelanda?",
+            "opciones": [
+                "a) Fútbol",
+                "b) Rugby",
+                "c) Cricket",
+                "d) Baloncesto"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el equipo de baloncesto más exitoso en la historia de la NBA en términos de porcentaje de victorias en playoffs?",
+            "opciones": [
+                "a) Chicago Bulls",
+                "b) Boston Celtics",
+                "c) Los Angeles Lakers",
+                "d) San Antonio Spurs"
+            ],
+            "respuesta_correcta": "d"
         }
     ],
     "preguntas_geografia": [
@@ -159,12 +504,22 @@
         },
         {
             "enunciado": "¿Cuál es el río que atraviesa la ciudad de París?",
-            "opciones": ["a) Sena", "b) Támesis", "c) Danubio", "d) Rin"],
+            "opciones": [
+                "a) Sena",
+                "b) Támesis",
+                "c) Danubio",
+                "d) Rin"
+            ],
             "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿En qué país se encuentra la Ciudad del Vaticano?",
-            "opciones": ["a) Italia", "b) España", "c) Francia", "d) Suiza"],
+            "opciones": [
+                "a) Italia",
+                "b) España",
+                "c) Francia",
+                "d) Suiza"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -189,7 +544,12 @@
         },
         {
             "enunciado": "¿En qué continente se encuentra el Polo Sur?",
-            "opciones": ["a) África", "b) Antártida", "c) Asia", "d) Europa"],
+            "opciones": [
+                "a) África",
+                "b) Antártida",
+                "c) Asia",
+                "d) Europa"
+            ],
             "respuesta_correcta": "b"
         },
         {
@@ -204,12 +564,22 @@
         },
         {
             "enunciado": "¿Cuál es el país con más volcanes activos?",
-            "opciones": ["a) Japón", "b) Italia", "c) Indonesia", "d) México"],
+            "opciones": [
+                "a) Japón",
+                "b) Italia",
+                "c) Indonesia",
+                "d) México"
+            ],
             "respuesta_correcta": "c"
         },
         {
             "enunciado": "¿En qué país se encuentra Machu Picchu?",
-            "opciones": ["a) México", "b) Perú", "c) Colombia", "d) Ecuador"],
+            "opciones": [
+                "a) México",
+                "b) Perú",
+                "c) Colombia",
+                "d) Ecuador"
+            ],
             "respuesta_correcta": "b"
         },
         {
@@ -234,18 +604,13 @@
         },
         {
             "enunciado": "¿Cuál es la capital de Japón?",
-            "opciones": ["a) Pekín", "b) Seúl", "c) Tokio", "d) Bangkok"],
-            "respuesta_correcta": "c"
-        },
-        {
-            "enunciado": "¿Cuál es el país más grande del mundo en términos de área?",
             "opciones": [
-                "a) Rusia",
-                "b) Canadá",
-                "c) Estados Unidos",
-                "d) China"
+                "a) Pekín",
+                "b) Seúl",
+                "c) Tokio",
+                "d) Bangkok"
             ],
-            "respuesta_correcta": "a"
+            "respuesta_correcta": "c"
         },
         {
             "enunciado": "¿En qué continente se encuentra el Desierto del Sahara?",
@@ -259,12 +624,22 @@
         },
         {
             "enunciado": "¿Cuál es el río más largo del mundo?",
-            "opciones": ["a) Nilo", "b) Amazonas", "c) Yangtsé", "d) Misisipi"],
+            "opciones": [
+                "a) Nilo",
+                "b) Amazonas",
+                "c) Yangtsé",
+                "d) Misisipi"
+            ],
             "respuesta_correcta": "b"
         },
         {
             "enunciado": "¿En qué continente se encuentra la Gran Barrera de Coral?",
-            "opciones": ["a) Asia", "b) Europa", "c) Oceanía", "d) África"],
+            "opciones": [
+                "a) Asia",
+                "b) Europa",
+                "c) Oceanía",
+                "d) África"
+            ],
             "respuesta_correcta": "c"
         },
         {
@@ -289,8 +664,23 @@
         },
         {
             "enunciado": "¿Cuántos países conforman América del Sur?",
-            "opciones": ["a) 8", "b) 10", "c) 12", "d) 14"],
+            "opciones": [
+                "a) 8",
+                "b) 10",
+                "c) 12",
+                "d) 14"
+            ],
             "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el punto más alto de América del Norte?",
+            "opciones": [
+                "a) Pico de Orizaba",
+                "b) Montaña Denali",
+                "c) Montaña Whitney",
+                "d) Montaña Rainier"
+            ],
+            "respuesta_correcta": "b"
         }
     ],
     "preguntas_arte": [
@@ -306,7 +696,12 @@
         },
         {
             "enunciado": "¿En qué país nació el escultor Auguste Rodin?",
-            "opciones": ["a) Francia", "b) Italia", "c) España", "d) Alemania"],
+            "opciones": [
+                "a) Francia",
+                "b) Italia",
+                "c) España",
+                "d) Alemania"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -421,7 +816,12 @@
         },
         {
             "enunciado": "¿En qué país nació el pintor Salvador Dalí?",
-            "opciones": ["a) España", "b) Francia", "c) Italia", "d) Alemania"],
+            "opciones": [
+                "a) España",
+                "b) Francia",
+                "c) Italia",
+                "d) Alemania"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -433,6 +833,306 @@
                 "d) Impresionismo"
             ],
             "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Quién fue el famoso pintor impresionista que pintó 'Baile en el Moulin de la Galette'?",
+            "opciones": [
+                "a) Edgar Degas",
+                "b) Pierre-Auguste Renoir",
+                "c) Édouard Manet",
+                "d) Paul Cézanne"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes movimientos artísticos se caracteriza por el uso de formas geométricas y colores primarios?",
+            "opciones": [
+                "a) Cubismo",
+                "b) Expresionismo",
+                "c) Fauvismo",
+                "d) Realismo"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es el autor de la obra 'Guernica'?",
+            "opciones": [
+                "a) Pablo Picasso",
+                "b) Salvador Dalí",
+                "c) Joan Miró",
+                "d) Francisco de Goya"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué pintor neerlandés es conocido por sus obras de naturaleza muerta, incluyendo 'Naturaleza muerta con girasoles'?",
+            "opciones": [
+                "a) Johannes Vermeer",
+                "b) Rembrandt van Rijn",
+                "c) Jan van Eyck",
+                "d) Vincent van Gogh"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál es el período artístico asociado con la arquitectura gótica?",
+            "opciones": [
+                "a) Renacimiento",
+                "b) Barroco",
+                "c) Gótico",
+                "d) Románico"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Quién es conocido por sus esculturas de formas orgánicas y su uso del biomorfismo?",
+            "opciones": [
+                "a) Alexander Calder",
+                "b) Constantin Brancusi",
+                "c) Barbara Hepworth",
+                "d) Henry Moore"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes artistas es famoso por sus pinturas de los límites de Estados Unidos y México?",
+            "opciones": [
+                "a) Georgia O'Keeffe",
+                "b) Diego Rivera",
+                "c) Frida Kahlo",
+                "d) Edward Hopper"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Qué movimiento artístico está asociado con el uso de imágenes repetitivas de productos de consumo y celebridades?",
+            "opciones": [
+                "a) Arte pop",
+                "b) Dadaísmo",
+                "c) Constructivismo",
+                "d) Arte conceptual"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál de los siguientes pintores es conocido por sus obras de paisajes marinos?",
+            "opciones": [
+                "a) Winslow Homer",
+                "b) Jackson Pollock",
+                "c) Mark Rothko",
+                "d) Willem de Kooning"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es conocido por sus esculturas cinéticas que se mueven con el viento?",
+            "opciones": [
+                "a) Isamu Noguchi",
+                "b) Alberto Giacometti",
+                "c) Jean Tinguely",
+                "d) Naum Gabo"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Quién fue el arquitecto principal del Partenón en Atenas?",
+            "opciones": [
+                "a) Fidias",
+                "b) Praxíteles",
+                "c) Lisipo",
+                "d) Policleto"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué artista es conocido por sus obras de arte cinético, que utilizan ilusiones ópticas para crear movimiento?",
+            "opciones": [
+                "a) Victor Vasarely",
+                "b) Piet Mondrian",
+                "c) René Magritte",
+                "d) Wassily Kandinsky"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién pintó 'El jardín de las delicias'?",
+            "opciones": [
+                "a) El Bosco",
+                "b) Rafael",
+                "c) Tiziano",
+                "d) Caravaggio"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué ciudad se encuentra la famosa escultura 'El David' de Miguel Ángel?",
+            "opciones": [
+                "a) Florencia",
+                "b) Roma",
+                "c) Venecia",
+                "d) Milán"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es conocido por sus pinturas de latas de sopa y retratos de celebridades en el arte pop?",
+            "opciones": [
+                "a) Andy Warhol",
+                "b) Roy Lichtenstein",
+                "c) Jasper Johns",
+                "d) Robert Rauschenberg"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la técnica de arte japonesa que utiliza papel plegado para crear figuras?",
+            "opciones": [
+                "a) Kirigami",
+                "b) Sumi-e",
+                "c) Origami",
+                "d) Ukiyo-e"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Quién pintó 'La joven de la perla'?",
+            "opciones": [
+                "a) Johannes Vermeer",
+                "b) Rembrandt van Rijn",
+                "c) Jan van Eyck",
+                "d) Pieter Brueghel"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del famoso muralista mexicano conocido por obras como 'Sueño de una tarde dominical en la Alameda Central'?",
+            "opciones": [
+                "a) Diego Rivera",
+                "b) David Alfaro Siqueiros",
+                "c) José Clemente Orozco",
+                "d) Frida Kahlo"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es considerado el padre del arte renacentista?",
+            "opciones": [
+                "a) Leonardo da Vinci",
+                "b) Miguel Ángel",
+                "c) Sandro Botticelli",
+                "d) Rafael"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Qué artista es conocido por sus obras de arte en el metro de París, incluyendo 'El techo de Montparnasse'?",
+            "opciones": [
+                "a) Joan Miró",
+                "b) Marc Chagall",
+                "c) Pablo Picasso",
+                "d) Henri Matisse"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién fue el pintor principal del movimiento surrealista y pintó 'La persistencia de la memoria'?",
+            "opciones": [
+                "a) Salvador Dalí",
+                "b) Pablo Picasso",
+                "c) René Magritte",
+                "d) Joan Miró"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es conocido por sus esculturas en acero inoxidable, incluida 'Tulipanes'?",
+            "opciones": [
+                "a) Jeff Koons",
+                "b) Damien Hirst",
+                "c) Anish Kapoor",
+                "d) Louise Bourgeois"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué movimiento artístico se destacó el pintor Wassily Kandinsky?",
+            "opciones": [
+                "a) Expresionismo abstracto",
+                "b) Arte pop",
+                "c) Suprematismo",
+                "d) Cubismo"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Qué artista es conocido por sus pinturas de campesinos y paisajes, como 'Los jugadores de cartas'?",
+            "opciones": [
+                "a) Jean-François Millet",
+                "b) Édouard Manet",
+                "c) Camille Pissarro",
+                "d) Gustave Courbet"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién pintó 'Las meninas'?",
+            "opciones": [
+                "a) Diego Velázquez",
+                "b) Francisco de Goya",
+                "c) El Greco",
+                "d) Bartolomé Esteban Murillo"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la técnica de arte que utiliza cera derretida para crear imágenes?",
+            "opciones": [
+                "a) Encaustic",
+                "b) Fresco",
+                "c) Temple",
+                "d) Grafito"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es conocido por sus esculturas de bronce de formas orgánicas y abstractas?",
+            "opciones": [
+                "a) Henry Moore",
+                "b) Alberto Giacometti",
+                "c) Constantin Brancusi",
+                "d) Louise Nevelson"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué movimiento artístico se destacó el pintor Johannes Vermeer?",
+            "opciones": [
+                "a) Barroco",
+                "b) Rococó",
+                "c) Renacimiento",
+                "d) Romanticismo"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién fue el arquitecto principal de la Ópera de Sídney?",
+            "opciones": [
+                "a) Frank Lloyd Wright",
+                "b) Ludwig Mies van der Rohe",
+                "c) Jørn Utzon",
+                "d) Le Corbusier"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Qué artista es conocido por sus pinturas de los campos de trigo y girasoles, como 'Los girasoles'?",
+            "opciones": [
+                "a) Vincent van Gogh",
+                "b) Paul Gauguin",
+                "c) Claude Monet",
+                "d) Edvard Munch"
+            ],
+            "respuesta_correcta": "a"
         }
     ],
     "preguntas_literatura": [
@@ -585,12 +1285,317 @@
                 "d) República Checa"
             ],
             "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Quién escribió la novela 'Matar a un ruiseñor'?",
+            "opciones": [
+                "a) Harper Lee",
+                "b) J.D. Salinger",
+                "c) F. Scott Fitzgerald",
+                "d) Ernest Hemingway"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más famosa de Franz Kafka?",
+            "opciones": [
+                "a) La metamorfosis",
+                "b) El proceso",
+                "c) El castillo",
+                "d) La condena"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'Crimen y castigo'?",
+            "opciones": [
+                "a) Fiódor Dostoyevski",
+                "b) Lev Tolstói",
+                "c) Nikolái Gógol",
+                "d) Iván Turguénev"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más conocida de Gabriel García Márquez después de 'Cien años de soledad'?",
+            "opciones": [
+                "a) Crónica de una muerte anunciada",
+                "b) El amor en los tiempos del cólera",
+                "c) La hojarasca",
+                "d) El coronel no tiene quien le escriba"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién es el autor de la obra 'Anna Karenina'?",
+            "opciones": [
+                "a) Lev Tolstói",
+                "b) Fiódor Dostoyevski",
+                "c) Anton Chéjov",
+                "d) Iván Turguénev"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué escritor es conocido por su obra 'El extranjero'?",
+            "opciones": [
+                "a) Albert Camus",
+                "b) Jean-Paul Sartre",
+                "c) Franz Kafka",
+                "d) Marcel Proust"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió la obra 'Moby Dick'?",
+            "opciones": [
+                "a) Herman Melville",
+                "b) Nathaniel Hawthorne",
+                "c) Mark Twain",
+                "d) Emily Dickinson"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la novela más famosa de Virginia Woolf?",
+            "opciones": [
+                "a) La señora Dalloway",
+                "b) Al faro",
+                "c) Orlando",
+                "d) Las olas"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'La montaña mágica'?",
+            "opciones": [
+                "a) Thomas Mann",
+                "b) Hermann Hesse",
+                "c) Franz Kafka",
+                "d) Johann Wolfgang von Goethe"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más conocida de José Saramago?",
+            "opciones": [
+                "a) Ensayo sobre la ceguera",
+                "b) Memorial del convento",
+                "c) El evangelio según Jesucristo",
+                "d) Las intermitencias de la muerte"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'El retrato de Dorian Gray'?",
+            "opciones": [
+                "a) Oscar Wilde",
+                "b) Virginia Woolf",
+                "c) Emily Brontë",
+                "d) Jane Austen"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más conocida de Julio Cortázar?",
+            "opciones": [
+                "a) Rayuela",
+                "b) Bestiario",
+                "c) Los premios",
+                "d) Final del juego"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'Los miserables'?",
+            "opciones": [
+                "a) Víctor Hugo",
+                "b) Gustave Flaubert",
+                "c) Honoré de Balzac",
+                "d) Alexandre Dumas"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más famosa de Edgar Allan Poe?",
+            "opciones": [
+                "a) El cuervo",
+                "b) La caída de la Casa Usher",
+                "c) Los crímenes de la calle Morgue",
+                "d) La máscara de la muerte roja"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'El amor en los tiempos del cólera'?",
+            "opciones": [
+                "a) Gabriel García Márquez",
+                "b) Isabel Allende",
+                "c) Mario Vargas Llosa",
+                "d) Jorge Luis Borges"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más famosa de Ernest Hemingway?",
+            "opciones": [
+                "a) El viejo y el mar",
+                "b) Fiesta",
+                "c) Por quién doblan las campanas",
+                "d) Adiós a las armas"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'Crónica de una muerte anunciada'?",
+            "opciones": [
+                "a) Gabriel García Márquez",
+                "b) Julio Cortázar",
+                "c) Pablo Neruda",
+                "d) Mario Vargas Llosa"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más conocida de Aldous Huxley?",
+            "opciones": [
+                "a) Un mundo feliz",
+                "b) Las puertas de la percepción",
+                "c) La isla",
+                "d) Contrapunto"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'El nombre de la rosa'?",
+            "opciones": [
+                "a) Umberto Eco",
+                "b) Italo Calvino",
+                "c) Primo Levi",
+                "d) Giuseppe Tomasi di Lampedusa"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más famosa de Franz Kafka?",
+            "opciones": [
+                "a) La metamorfosis",
+                "b) El proceso",
+                "c) El castillo",
+                "d) La condena"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió la novela 'El guardián entre el centeno'?",
+            "opciones": [
+                "a) J.D. Salinger",
+                "b) F. Scott Fitzgerald",
+                "c) Ernest Hemingway",
+                "d) John Steinbeck"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más conocida de Herman Melville?",
+            "opciones": [
+                "a) Moby Dick",
+                "b) Bartleby, el escribiente",
+                "c) Billy Budd, marinero",
+                "d) Benito Cereno"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'La metamorfosis'?",
+            "opciones": [
+                "a) Franz Kafka",
+                "b) Edgar Allan Poe",
+                "c) H.P. Lovecraft",
+                "d) Arthur Conan Doyle"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más famosa de Tennessee Williams?",
+            "opciones": [
+                "a) El zoo de cristal",
+                "b) Un tranvía llamado deseo",
+                "c) La gata sobre el tejado de zinc caliente",
+                "d) De repente, el último verano"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién escribió 'Anna Karénina'?",
+            "opciones": [
+                "a) León Tolstói",
+                "b) Fiódor Dostoievski",
+                "c) Nikolái Gógol",
+                "d) Anton Chéjov"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más conocida de Truman Capote?",
+            "opciones": [
+                "a) Desayuno en Tiffany's",
+                "b) A sangre fría",
+                "c) Música para camaleones",
+                "d) Otras voces, otros ámbitos"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién escribió 'El retrato de una dama'?",
+            "opciones": [
+                "a) Henry James",
+                "b) Edith Wharton",
+                "c) Nathaniel Hawthorne",
+                "d) Emily Dickinson"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más famosa de Franz Kafka?",
+            "opciones": [
+                "a) La metamorfosis",
+                "b) El proceso",
+                "c) El castillo",
+                "d) Amerika"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién escribió 'En el camino'?",
+            "opciones": [
+                "a) Jack Kerouac",
+                "b) Allen Ginsberg",
+                "c) William S. Burroughs",
+                "d) Charles Bukowski"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la obra más conocida de Gabriel García Márquez después de 'Cien años de soledad'?",
+            "opciones": [
+                "a) Crónica de una muerte anunciada",
+                "b) El amor en los tiempos del cólera",
+                "c) El otoño del patriarca",
+                "d) La hojarasca"
+            ],
+            "respuesta_correcta": "b"
         }
     ],
     "preguntas_ciencia": [
         {
             "enunciado": "¿Cuál es el planeta más grande de nuestro sistema solar?",
-            "opciones": ["a) Marte", "b) Júpiter", "c) Venus", "d) Saturno"],
+            "opciones": [
+                "a) Marte",
+                "b) Júpiter",
+                "c) Venus",
+                "d) Saturno"
+            ],
             "respuesta_correcta": "b"
         },
         {
@@ -605,12 +1610,22 @@
         },
         {
             "enunciado": "¿Cuántos huesos tiene el cuerpo humano?",
-            "opciones": ["a) 206", "b) 215", "c) 180", "d) 230"],
+            "opciones": [
+                "a) 206",
+                "b) 215",
+                "c) 180",
+                "d) 230"
+            ],
             "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿Cuál es la unidad básica de la estructura de los seres vivos?",
-            "opciones": ["a) Célula", "b) Átomo", "c) Molécula", "d) Gen"],
+            "opciones": [
+                "a) Célula",
+                "b) Átomo",
+                "c) Molécula",
+                "d) Gen"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -665,12 +1680,22 @@
         },
         {
             "enunciado": "¿En qué año se descubrió el ADN?",
-            "opciones": ["a) 1952", "b) 1962", "c) 1972", "d) 1982"],
+            "opciones": [
+                "a) 1952",
+                "b) 1962",
+                "c) 1972",
+                "d) 1982"
+            ],
             "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿Cuál es el planeta más grande de nuestro sistema solar?",
-            "opciones": ["a) Marte", "b) Júpiter", "c) Saturno", "d) Neptuno"],
+            "opciones": [
+                "a) Marte",
+                "b) Júpiter",
+                "c) Saturno",
+                "d) Neptuno"
+            ],
             "respuesta_correcta": "b"
         },
         {
@@ -695,7 +1720,12 @@
         },
         {
             "enunciado": "¿Cuál es la unidad básica de la estructura de los seres vivos?",
-            "opciones": ["a) Célula", "b) Átomo", "c) Molécula", "d) Gen"],
+            "opciones": [
+                "a) Célula",
+                "b) Átomo",
+                "c) Molécula",
+                "d) Gen"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -707,6 +1737,306 @@
                 "d) Stephen Hawking"
             ],
             "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el compuesto químico principal en la composición del agua?",
+            "opciones": [
+                "a) Dióxido de carbono",
+                "b) Dióxido de azufre",
+                "c) Dióxido de nitrógeno",
+                "d) Óxido de hidrógeno"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál es la partícula subatómica con carga eléctrica negativa?",
+            "opciones": [
+                "a) Neutrón",
+                "b) Protón",
+                "c) Electrón",
+                "d) Quark"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Qué científico propuso la teoría de la relatividad?",
+            "opciones": [
+                "a) Isaac Newton",
+                "b) Albert Einstein",
+                "c) Galileo Galilei",
+                "d) Stephen Hawking"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es la enfermedad causada por la deficiencia de vitamina C?",
+            "opciones": [
+                "a) Escorbuto",
+                "b) Anemia",
+                "c) Beriberi",
+                "d) Raquitismo"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la unidad de medida de la fuerza en el sistema internacional?",
+            "opciones": [
+                "a) Newton",
+                "b) Vatio",
+                "c) Joule",
+                "d) Pascal"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el proceso mediante el cual las plantas producen su alimento?",
+            "opciones": [
+                "a) Respiración",
+                "b) Fotosíntesis",
+                "c) Transpiración",
+                "d) Germinación"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Qué tipo de energía se encuentra almacenada en los alimentos?",
+            "opciones": [
+                "a) Energía térmica",
+                "b) Energía cinética",
+                "c) Energía química",
+                "d) Energía mecánica"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es la unidad básica de la herencia biológica?",
+            "opciones": [
+                "a) Gen",
+                "b) Alelo",
+                "c) Cromosoma",
+                "d) Ácido ribonucleico"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué tipo de partículas son los neutrinos?",
+            "opciones": [
+                "a) Hadrones",
+                "b) Leptones",
+                "c) Fermiones",
+                "d) Bosones"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es la enfermedad causada por la falta de hierro en la sangre?",
+            "opciones": [
+                "a) Anemia",
+                "b) Diabetes",
+                "c) Artritis",
+                "d) Hemofilia"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la unidad básica del sistema nervioso?",
+            "opciones": [
+                "a) Neurona",
+                "b) Sinapsis",
+                "c) Glía",
+                "d) Axón"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el ácido presente en las baterías de plomo-ácido?",
+            "opciones": [
+                "a) Ácido sulfúrico",
+                "b) Ácido clorhídrico",
+                "c) Ácido acético",
+                "d) Ácido nítrico"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la fórmula química del agua?",
+            "opciones": [
+                "a) H2O2",
+                "b) CO2",
+                "c) H2O",
+                "d) H3O"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es la unidad básica de la estructura de los ácidos nucleicos?",
+            "opciones": [
+                "a) Nucleótido",
+                "b) Aminoácido",
+                "c) Glúcido",
+                "d) Grasa"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el metal más abundante en la corteza terrestre?",
+            "opciones": [
+                "a) Hierro",
+                "b) Aluminio",
+                "c) Plomo",
+                "d) Oro"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es la unidad de medida de la fuerza gravitacional?",
+            "opciones": [
+                "a) Newton",
+                "b) Kilogramo",
+                "c) Julio",
+                "d) Vatio"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el proceso químico mediante el cual se convierte el azúcar en alcohol?",
+            "opciones": [
+                "a) Fermentación",
+                "b) Oxidación",
+                "c) Reducción",
+                "d) Evaporación"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el órgano más grande del cuerpo humano?",
+            "opciones": [
+                "a) Piel",
+                "b) Hígado",
+                "c) Cerebro",
+                "d) Pulmones"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el proceso mediante el cual los organismos convierten la luz solar en energía química?",
+            "opciones": [
+                "a) Fotosíntesis",
+                "b) Respiración",
+                "c) Transpiración",
+                "d) Germinación"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
+            "opciones": [
+                "a) Nitrógeno",
+                "b) Oxígeno",
+                "c) Dióxido de carbono",
+                "d) Hidrógeno"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el hueso más largo del cuerpo humano?",
+            "opciones": [
+                "a) Fémur",
+                "b) Tibia",
+                "c) Radio",
+                "d) Húmero"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué sustancia química es responsable del color de las hojas en otoño?",
+            "opciones": [
+                "a) Clorofila",
+                "b) Antocianina",
+                "c) Carotenoide",
+                "d) Xantofila"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el proceso mediante el cual los organismos producen energía a partir de la glucosa?",
+            "opciones": [
+                "a) Respiración celular",
+                "b) Fotosíntesis",
+                "c) Fermentación",
+                "d) Oxidación"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Qué enfermedad es causada por la falta de vitamina D?",
+            "opciones": [
+                "a) Raquitismo",
+                "b) Escorbuto",
+                "c) Beriberi",
+                "d) Anemia"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el órgano responsable de la producción de insulina en el cuerpo humano?",
+            "opciones": [
+                "a) Páncreas",
+                "b) Hígado",
+                "c) Riñones",
+                "d) Glándula tiroides"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la enfermedad causada por la falta de hierro en la sangre?",
+            "opciones": [
+                "a) Anemia",
+                "b) Diabetes",
+                "c) Artritis",
+                "d) Hemofilia"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la enzima que descompone los lípidos en el intestino delgado?",
+            "opciones": [
+                "a) Lipasa",
+                "b) Amilasa",
+                "c) Tripsina",
+                "d) Pepsina"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el ácido presente en el jugo gástrico del estómago?",
+            "opciones": [
+                "a) Ácido clorhídrico",
+                "b) Ácido acético",
+                "c) Ácido sulfúrico",
+                "d) Ácido cítrico"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el proceso mediante el cual las plantas absorben agua y nutrientes del suelo?",
+            "opciones": [
+                "a) Absorción",
+                "b) Fotosíntesis",
+                "c) Transpiración",
+                "d) Osmosis"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el gas presente en la atmósfera que es esencial para la respiración aeróbica?",
+            "opciones": [
+                "a) Oxígeno",
+                "b) Nitrógeno",
+                "c) Dióxido de carbono",
+                "d) Ozono"
+            ],
+            "respuesta_correcta": "a"
         }
     ],
     "preguntas_entretenimiento": [
@@ -752,7 +2082,12 @@
         },
         {
             "enunciado": "¿En qué año se estrenó la serie de televisión 'The Simpsons'?",
-            "opciones": ["a) 1989", "b) 1991", "c) 1995", "d) 2000"],
+            "opciones": [
+                "a) 1989",
+                "b) 1991",
+                "c) 1995",
+                "d) 2000"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -797,7 +2132,12 @@
         },
         {
             "enunciado": "¿Cuál es el juego de mesa más vendido de la historia?",
-            "opciones": ["a) Monopoly", "b) Scrabble", "c) Risk", "d) Uno"],
+            "opciones": [
+                "a) Monopoly",
+                "b) Scrabble",
+                "c) Risk",
+                "d) Uno"
+            ],
             "respuesta_correcta": "a"
         },
         {
@@ -842,7 +2182,312 @@
         },
         {
             "enunciado": "¿En qué año se estrenó la serie de televisión 'Friends'?",
-            "opciones": ["a) 1994", "b) 1996", "c) 1998", "d) 2000"],
+            "opciones": [
+                "a) 1994",
+                "b) 1996",
+                "c) 1998",
+                "d) 2000"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la serie de televisión que sigue las aventuras del arqueólogo ficticio Indiana Jones?",
+            "opciones": [
+                "a) Indiana Jones",
+                "b) The X-Files",
+                "c) Supernatural",
+                "d) Doctor Who"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién fue el director de la trilogía 'El Señor de los Anillos'?",
+            "opciones": [
+                "a) Steven Spielberg",
+                "b) Peter Jackson",
+                "c) George Lucas",
+                "d) James Cameron"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué película interpreta Will Smith a un agente especial que combate amenazas extraterrestres en la Tierra?",
+            "opciones": [
+                "a) Independence Day",
+                "b) Men in Black",
+                "c) I Am Legend",
+                "d) After Earth"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del protagonista en la serie de televisión 'House of Cards'?",
+            "opciones": [
+                "a) Frank Underwood",
+                "b) Jack Ryan",
+                "c) Tony Stark",
+                "d) Harvey Specter"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es el creador de la serie de animación 'Bob Esponja'?",
+            "opciones": [
+                "a) Seth MacFarlane",
+                "b) Matt Groening",
+                "c) Stephen Hillenburg",
+                "d) Mike Judge"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿En qué película interpreta Tom Hanks a un hombre que queda atrapado en una isla desierta junto a un balón de voleibol llamado Wilson?",
+            "opciones": [
+                "a) Náufrago",
+                "b) Apollo 13",
+                "c) Rescatando al Soldado Ryan",
+                "d) El Código Da Vinci"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del protagonista en la serie 'The Mandalorian'?",
+            "opciones": [
+                "a) Luke Skywalker",
+                "b) Darth Vader",
+                "c) Boba Fett",
+                "d) Din Djarin"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿En qué serie de televisión el personaje principal es un profesor que organiza un atraco a la Fábrica Nacional de Moneda y Timbre de España?",
+            "opciones": [
+                "a) La Casa de Papel",
+                "b) Breaking Bad",
+                "c) Narcos",
+                "d) Ozark"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del bar en el que se reúnen los protagonistas de 'Cómo conocí a vuestra madre'?",
+            "opciones": [
+                "a) McLaren's",
+                "b) Central Perk",
+                "c) Paddy's Pub",
+                "d) Cheers"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué película de Disney aparece la princesa Elsa?",
+            "opciones": [
+                "a) La Sirenita",
+                "b) La Bella y la Bestia",
+                "c) Mulán",
+                "d) Frozen"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿Cuál es la película de Quentin Tarantino que presenta una narrativa no lineal?",
+            "opciones": [
+                "a) Pulp Fiction",
+                "b) Kill Bill",
+                "c) Reservoir Dogs",
+                "d) Bastardos sin Gloria"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién interpreta a Jack Sparrow en la serie de películas 'Piratas del Caribe'?",
+            "opciones": [
+                "a) Johnny Depp",
+                "b) Orlando Bloom",
+                "c) Geoffrey Rush",
+                "d) Keira Knightley"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el título de la serie de televisión basada en las novelas de George R.R. Martin?",
+            "opciones": [
+                "a) Vikingos",
+                "b) Juego de Tronos",
+                "c) Los Soprano",
+                "d) Breaking Bad"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Qué actor interpretó al Joker en la película 'El Caballero de la Noche'?",
+            "opciones": [
+                "a) Heath Ledger",
+                "b) Jack Nicholson",
+                "c) Joaquin Phoenix",
+                "d) Jared Leto"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del robot protagonista en la película 'WALL-E' de Pixar?",
+            "opciones": [
+                "a) EVE",
+                "b) BENDER",
+                "c) R2-D2",
+                "d) WALL-E"
+            ],
+            "respuesta_correcta": "d"
+        },
+        {
+            "enunciado": "¿En qué película interpreta Leonardo DiCaprio a un estafador que se infiltra en el mundo de las finanzas?",
+            "opciones": [
+                "a) El Gran Gatsby",
+                "b) El Lobo de Wall Street",
+                "c) Atrápame si puedes",
+                "d) Shutter Island"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del protagonista en la serie de televisión 'Stranger Things'?",
+            "opciones": [
+                "a) Will Byers",
+                "b) Mike Wheeler",
+                "c) Eleven",
+                "d) Jim Hopper"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué película interpreta Tom Cruise a un piloto de la Marina de los EE. UU.?",
+            "opciones": [
+                "a) Top Gun",
+                "b) Misión Imposible",
+                "c) Día de la Independencia",
+                "d) Nacido el 4 de Julio"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién es el creador de la serie animada 'Los Simpsons'?",
+            "opciones": [
+                "a) Seth MacFarlane",
+                "b) Matt Groening",
+                "c) Trey Parker",
+                "d) Mike Judge"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del androide en la franquicia 'Star Wars' que dice 'No soy el droide que están buscando'?",
+            "opciones": [
+                "a) C-3PO",
+                "b) R2-D2",
+                "c) BB-8",
+                "d) IG-88"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la película dirigida por Steven Spielberg que presenta a un niño que se hace amigo de un extraterrestre?",
+            "opciones": [
+                "a) E.T. el Extraterrestre",
+                "b) Encuentros Cercanos del Tercer Tipo",
+                "c) Jurassic Park",
+                "d) Indiana Jones y los Cazadores del Arca Perdida"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Quién interpretó a Batman en la trilogía dirigida por Christopher Nolan?",
+            "opciones": [
+                "a) Christian Bale",
+                "b) Ben Affleck",
+                "c) Michael Keaton",
+                "d) Val Kilmer"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué serie de televisión es conocido el personaje 'Dexter Morgan'?",
+            "opciones": [
+                "a) Breaking Bad",
+                "b) Dexter",
+                "c) The Walking Dead",
+                "d) Sons of Anarchy"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Quién interpretó a la legendaria banda de rock en la película 'Bohemian Rhapsody'?",
+            "opciones": [
+                "a) Rami Malek",
+                "b) Brad Pitt",
+                "c) Johnny Depp",
+                "d) Leonardo DiCaprio"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la serie de televisión basada en las novelas de George R.R. Martin?",
+            "opciones": [
+                "a) Los Soprano",
+                "b) Breaking Bad",
+                "c) Juego de Tronos",
+                "d) The Walking Dead"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Quién interpretó a Neo en la trilogía 'Matrix'?",
+            "opciones": [
+                "a) Keanu Reeves",
+                "b) Will Smith",
+                "c) Tom Cruise",
+                "d) Johnny Depp"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el nombre del famoso agente secreto británico, creado por Ian Fleming?",
+            "opciones": [
+                "a) Jason Bourne",
+                "b) James Bond",
+                "c) Ethan Hunt",
+                "d) Jack Ryan"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Qué actor interpretó a Hannibal Lecter en la película 'El Silencio de los Corderos'?",
+            "opciones": [
+                "a) Anthony Hopkins",
+                "b) Robert De Niro",
+                "c) Al Pacino",
+                "d) Kevin Spacey"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es la franquicia cinematográfica protagonizada por Vin Diesel y centrada en carreras callejeras y robos de vehículos?",
+            "opciones": [
+                "a) The Fast and the Furious",
+                "b) Need for Speed",
+                "c) Gone in 60 Seconds",
+                "d) Drive"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué película de Quentin Tarantino aparece la famosa escena de la danza entre John Travolta y Uma Thurman?",
+            "opciones": [
+                "a) Pulp Fiction",
+                "b) Bastardos sin Gloria",
+                "c) Kill Bill",
+                "d) Django sin Cadenas"
+            ],
             "respuesta_correcta": "a"
         }
     ]

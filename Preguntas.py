@@ -31,4 +31,35 @@ class Preguntas:
         
         
         return self.__pregunta, self.__categoria_actual
- 
+    #Property y setters 
+    @property
+    def preguntas(self):
+        return self.__preguntas
+
+    @preguntas.setter
+    def preguntas(self, valor):
+        self.__preguntas = valor
+
+    @property
+    def categorias(self):
+        return self.__categorias
+
+    @categorias.setter
+    def categorias(self, valor):
+        self.__categorias = valor
+
+    @property
+    def categoria_actual(self):
+        return self.__categoria_actual
+
+    @categoria_actual.setter
+    def categoria_actual(self, valor):
+        self.__categoria_actual = valor
+
+    @property
+    def pregunta(self):
+        return self.__pregunta
+
+    @pregunta.setter
+    def pregunta(self, valor):
+        self.__pregunta = valor
