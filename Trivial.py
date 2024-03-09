@@ -1,8 +1,9 @@
-from jugador import Jugador
+from Jugador import Jugador
 from Tablero import Tablero
 from Historial import Historial
 
 if __name__ == "__main__":
+    
     nombre1 = input('Introduce el nombre del jugador 1: ')
     nombre2 = input('Introduce el nombre del jugador 2: ')
     

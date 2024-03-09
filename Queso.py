@@ -1,9 +1,9 @@
 class Queso:
-    __categoria: str
     __quesosobtenidos: set
 
     def __init__(self):
         # Método constructor
+        
         
         self.__quesosobtenidos = set()
 
@@ -31,3 +31,12 @@ class Queso:
         
         
         return len(self.__quesosobtenidos) == 6
+
+    #Property y Setter de los atributos de la clase
+    @property
+    def quesos_obtenidos(self) -> set:
+        return  self.__quesosobtenidas
+    
+    @quesos_obtenidos.setter
+    def quesos_obtenidos(self, valor : set)->None:
+        self.__quesosobtenidos=valor

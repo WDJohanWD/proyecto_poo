@@ -8,7 +8,9 @@ class Preguntas:
     pregunta: dict
 
     def __init__(self) -> None:
-        #Inicializa el objeto Preguntas.
+        #Abre el archivo donde se encuentra las preguntas y las guarda.
+        
+        
         with open('.\\cosas No CLASES\\preguntas.json', 'r', encoding='utf-8') as archivo:
 
             self.preguntas = json.load(archivo)
@@ -19,10 +21,14 @@ class Preguntas:
     
     def elegir_pregunta(self, num: int) -> None:
         #Elige una pregunta aleatoria.
+        
+        
         self.categoria_actual = self.categorias[num-1]
         self.pregunta = sample(self.preguntas[self.categoria_actual], 1)[0]
 
     def obtener_pregunta_actual(self) -> tuple:
         #Devuelve la pregunta actual y su categoría.
+        
+        
         return self.pregunta, self.categoria_actual
  
