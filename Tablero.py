@@ -28,7 +28,11 @@ class Tablero:
         
         
         self.__casilla  = 0
+        
+        
         self.jugador  = jugador
+       
+        
         self.__preguntas_instancia = Preguntas()
         self.__pregunta_actual = {}
         self.__categoria = ''
@@ -124,49 +128,49 @@ class Tablero:
 
     #Property y Setter de los atributos privados
     @property
-    def casilla(self):
+    def casilla(self)->int:
         return self.__casilla
 
     @casilla.setter
-    def casilla(self, valor):
+    def casilla(self, valor: int):
         self.__casilla = valor
 
     @property
-    def jugador(self):
+    def jugador(self)->object:
         return self.__jugador
 
     @jugador.setter
-    def jugador(self, valor):
+    def jugador(self, valor:object):
         self.__jugador = valor
 
     @property
-    def preguntas_instancia(self):
+    def preguntas_instancia(self)-> Preguntas:
         return self.__preguntas_instancia
 
     @preguntas_instancia.setter
-    def preguntas_instancia(self, valor):
+    def preguntas_instancia(self, valor: Preguntas):
         self.__preguntas_instancia = valor
 
     @property
-    def pregunta_actual(self):
+    def pregunta_actual(self)->dict:
         return self.__pregunta_actual
 
     @pregunta_actual.setter
-    def pregunta_actual(self, valor):
+    def pregunta_actual(self, valor:dict):
         self.__pregunta_actual = valor
 
     @property
-    def categoria(self):
+    def categoria(self)-> str:
         return self.__categoria
 
     @categoria.setter
-    def categoria(self, valor):
+    def categoria(self, valor:str):
         self.__categoria = valor
 
     @property
-    def respuesta_usuario(self):
+    def respuesta_usuario(self)->str:
         return self.__respuesta_usuario
 
     @respuesta_usuario.setter
-    def respuesta_usuario(self, valor):
+    def respuesta_usuario(self, valor:str)-> None:
         self.__respuesta_usuario = valor

@@ -10,11 +10,13 @@ class Preguntas:
     def __init__(self) -> None:
         #Abre el archivo donde se encuentra las preguntas y las guarda.
         
-        
-        with open('.\\cosas No CLASES\\preguntas.json', 'r', encoding='utf-8') as archivo:
+        try:
+            with open('.\\cosas No CLASES\\preguntas.json', 'r', encoding='utf-8') as archivo:
 
-            self.__preguntas = json.load(archivo)
-
+                self.__preguntas = json.load(archivo)
+        except:
+            print('Error al abrir el archivo json donde se encuentran las preguntas')
+            
         self.__categorias = list(self.__preguntas.keys())
         self.__categoria_actual = ''
         self.__pregunta = {}
