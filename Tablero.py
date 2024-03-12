@@ -1,6 +1,7 @@
 from Dado import Dado
 from Queso import Queso
 from Preguntas import Preguntas
+from Vista import Vista
 
 class Tablero:
     # Atributos de la clase tablero
@@ -72,11 +73,8 @@ class Tablero:
         
         
         if self.__pregunta_actual:
-            print(f'\nLa categoría es {self.__categoria}')
-            print(f"\n{self.__pregunta_actual['enunciado']}")
-            for opcion in self.__pregunta_actual['opciones']:
-                print(opcion)
-
+            Vista.imprimir_pregunta(self.__categoria,self.__pregunta_actual)
+            
             self.__respuesta_usuario: str = input("Tu respuesta: ").lower()
             
     def verificar_respuesta(self)-> bool:
@@ -124,7 +122,7 @@ class Tablero:
         self.imprimir_posicion_pregunta()
         if self.verificar_respuesta():
             self.queso_instancia.conseguir_queso(self.__categoria)
-            print(f'Cantidad de quesos obtenidos: {self.queso_instancia.cantidad_quesos()}')
+            Vista.imprimir_cantidad_quesos(self.queso_instancia.cantidad_quesos())
 
     #Property y Setter de los atributos privados
     @property
