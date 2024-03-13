@@ -1,6 +1,6 @@
 import json
 from random import sample
-
+from Vista import Vista
 class Preguntas:
     __preguntas: dict
     __categorias: list
@@ -15,7 +15,7 @@ class Preguntas:
 
                 self.__preguntas = json.load(archivo)
         except:
-            print('Error al abrir el archivo json donde se encuentran las preguntas')
+            Vista.errores_excepciones_general()
             
         self.__categorias = list(self.__preguntas.keys())
         self.__categoria_actual = ''

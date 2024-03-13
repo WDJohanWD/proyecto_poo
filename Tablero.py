@@ -50,8 +50,7 @@ class Tablero:
         dado_lanzado: int = dado.lanzar_dado()
         while True:
             try:
-                movimiento: str = input(
-                    f'Estás en la casilla {self.__casilla} Quieres AVANZAR o RETROCEDER: {dado_lanzado} casillas ').lower()
+                movimiento: str = Vista.preguntar_movimiento(self.__casilla,dado_lanzado)
                 if movimiento == 'avanzar':
                     num_movimiento: int = self.__casilla + dado_lanzado
                     self.__casilla = num_movimiento % Tablero.CASILLAS
@@ -63,9 +62,9 @@ class Tablero:
                         self.__casilla -= dado_lanzado
                     break
                 else:
-                    print("Por favor, escribe 'avanzar' o 'retroceder'.")
+                    Vista.imprimir_opcion_correcta()
             except ValueError:
-                print('Valor incorrecto. Por favor, escriba "avanzar" o "retroceder".')
+                Vista.errores_excepciones_general()
 
     def imprimir_posicion_pregunta(self):
         #Método utilizado para imprimir un diccionario (preguntas) de manera que
@@ -75,7 +74,7 @@ class Tablero:
         if self.__pregunta_actual:
             Vista.imprimir_pregunta(self.__categoria,self.__pregunta_actual)
             
-            self.__respuesta_usuario: str = input("Tu respuesta: ").lower()
+            self.__respuesta_usuario: str = Vista.pedir_respuesta()
             
     def verificar_respuesta(self)-> bool:
         #Verifica si la respuesta  del usuario coincide con la respuesta real.

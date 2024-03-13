@@ -5,7 +5,7 @@ from Vista import Vista
 
 if __name__ == "__main__":
     while True:
-        
+        Vista.imprimir_inicio()
         num_jugadores=Vista.preguntar_jugador()
         
         
