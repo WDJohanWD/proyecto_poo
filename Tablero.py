@@ -29,11 +29,7 @@ class Tablero:
         
         
         self.__casilla  = 0
-        
-        
         self.jugador  = jugador
-       
-        
         self.__preguntas_instancia = Preguntas()
         self.__pregunta_actual = {}
         self.__categoria = ''
@@ -51,11 +47,11 @@ class Tablero:
         while True:
             try:
                 movimiento: str = Vista.preguntar_movimiento(self.__casilla,dado_lanzado)
-                if movimiento == 'avanzar':
+                if movimiento == 'avanzar' or movimiento == 'a':
                     num_movimiento: int = self.__casilla + dado_lanzado
                     self.__casilla = num_movimiento % Tablero.CASILLAS
                     break
-                elif movimiento == 'retroceder':
+                elif movimiento == 'retroceder' or movimiento =='r':
                     if self.__casilla - dado_lanzado < 0:
                         self.__casilla = Tablero.CASILLAS - (dado_lanzado - self.__casilla)
                     else:

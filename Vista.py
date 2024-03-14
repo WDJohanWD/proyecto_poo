@@ -5,6 +5,8 @@ class Vista:
     
     
     #Métodos para el main
+    
+    
     def imprimir_inicio():
 
         print(colored('''
@@ -83,17 +85,29 @@ class Vista:
             
         return num_jugadores
 
-    def bucle_jugador(i):
+    def mostrar_cantidad_jugadores_posibles():
+        print('La cantidad mínima de jugadores es de 2 y la cantidad máxima de jugadores es 6')
         
-        nombre = input(f'Introduce el nombre del jugador {i+1}: ')
-            
+    def bucle_jugador(i):
+        nombre_vacio=True
+        while nombre_vacio:
+            nombre = input(f'Introduce el nombre del jugador {i+1}: ')
+            if len(nombre) !=0:
+                nombre_vacio=False
+                
+            else:
+                nombre_vacio=True
+                print('TIENES QUE PONER UN NOMBRE')
+                time.sleep(1)
+                
         return nombre
        
     def mostrar_turno(jugadores,i):
         print(f"\nTurno de {jugadores[i].nombre}:")
+        time.sleep(1)
       
     def mostrar_ganador(jugadores,i):
-        print(f"\n¡{jugadores[i].nombre} ha ganado!") 
+        print(f"\n¡{jugadores[i].nombre.upper()} ha ganado!") 
     
     def guardar_resultado(jugador,tablero,jugadores,tableros):
         resultados = [f"El jugador {jugador.nombre} obtuvo {tablero.queso_instancia.cantidad_quesos()}" for jugador, tablero in zip(jugadores, tableros)]
@@ -101,23 +115,24 @@ class Vista:
     
     #Métodos generales
     def errores_excepciones_general():
-        print('Ha sucedido un error!!!!!!! ')
+        texto=colored('Ha sucedido un error!!','red')
+        print(texto)
         
         
         
-    #Método Clase Tablero
+    #Métodos Clase Tablero
     def preguntar_movimiento(casilla,dado):
-        movimiento=input(f'Estás en la casilla {casilla} Quieres AVANZAR o RETROCEDER: {dado} casillas ').lower()
+        movimiento=input(f"Estás en la casilla {casilla} Quieres {colored('AVANZAR (A)','green')} o {colored('RETROCEDER (R)','red')}: {dado} casillas ").lower()
         return movimiento
     
     def imprimir_opcion_correcta():
-        print("Por favor, escribe 'avanzar' o 'retroceder'.")
+        print(f"Por favor, escribe {colored('avanzar','green')} o {colored('retroceder','red')}.")
     
     def imprimir_cantidad_quesos(quesos):
         print(f'Cantidad de quesos obtenidos: {quesos}')
         
     def imprimir_pregunta(categoria,pregunta):
-        print(f'\nLa categoría es {categoria}')
+        print(f'\nLa categoría es {colored(categoria, attrs=["bold"])}')
         print(f"\n{pregunta['enunciado']}")
         for opcion in pregunta['opciones']:
             print(opcion)
@@ -127,3 +142,11 @@ class Vista:
         
         return respuesta
     
+    #Métodos clase queso
+    
+    def mostrar_categoria_ganada(valor,categoria):
+        if valor == 'repetido':
+            print(f'Ya has ganado el queso de la categoría {categoria}. ¡Intenta en otra casilla!')
+        else:
+            print(f'¡Ganaste Queso de la categoría {categoria}!')
+            

@@ -1,6 +1,8 @@
+from Vista import Vista
 class Queso:
     __quesos_obtenidos: set
-
+    NUEVO='nuevo'
+    REPETIDO='repetido'
     def __init__(self):
         # Método constructor
         
@@ -13,11 +15,11 @@ class Queso:
         
         
         if categoria not in self.__quesos_obtenidos:
-            print(f'¡Ganaste Queso de la categoría {categoria}!')
+            Vista.mostrar_categoria_ganada(Queso.NUEVO,categoria)
             self.__quesos_obtenidos.add(categoria)
             return True
         else:
-            print(f'Ya has ganado el queso de la categoría {categoria}. ¡Intenta en otra casilla!')
+            Vista.mostrar_categoria_ganada(Queso.REPETIDO,categoria)
             return False
 
     def cantidad_quesos(self) -> int:
