@@ -1,5 +1,5 @@
 {
-    "preguntas_deporte": [
+    "deporte": [
         {
             "enunciado": "¿Cuál es el deporte conocido como el 'rey de los deportes'?",
             "opciones": [
@@ -491,7 +491,7 @@
             "respuesta_correcta": "d"
         }
     ],
-    "preguntas_geografia": [
+    "geografia": [
         {
             "enunciado": "¿Cuál es la capital de Australia?",
             "opciones": [
@@ -853,7 +853,7 @@
             "respuesta_correcta": "b"
         }
     ],
-    "preguntas_arte": [
+    "arte": [
         {
             "enunciado": "¿Quién pintó la obra 'La persistencia de la memoria'?",
             "opciones": [
@@ -1305,7 +1305,7 @@
             "respuesta_correcta": "a"
         }
     ],
-    "preguntas_literatura": [
+    "literatura": [
         {
             "enunciado": "¿Quién escribió la obra 'Don Quijote de la Mancha'?",
             "opciones": [
@@ -1757,7 +1757,7 @@
             "respuesta_correcta": "b"
         }
     ],
-    "preguntas_ciencia": [
+    "ciencia": [
         {
             "enunciado": "¿Cuál es el planeta más grande de nuestro sistema solar?",
             "opciones": [
@@ -2209,7 +2209,7 @@
             "respuesta_correcta": "a"
         }
     ],
-    "preguntas_entretenimiento": [
+    "entretenimiento": [
         {
             "enunciado": "¿Cuál es la película más taquillera de todos los tiempos?",
             "opciones": [
