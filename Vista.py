@@ -27,15 +27,21 @@ class Vista:
         time.sleep(2)
     
     def preguntar_eleccion_inicio():#2
-        eleccion = int(input('''
-                         █████████████████████████████████████
-                         █          ¿Qué deseas hacer?       █
-                         █ 1. Comenzar a jugar directamente. █
-                         █ 2. Leer primero las instrucciones.█
-                         █████████████████████████████████████
-                         '''))
-        return eleccion
-    
+        try:
+            eleccion = int(input('''
+                            █████████████████████████████████████
+                            █          ¿Qué deseas hacer?       █
+                            █ 1. Comenzar a jugar directamente. █
+                            █ 2. Leer primero las instrucciones.█
+                            █████████████████████████████████████
+                            '''))
+            return eleccion
+        except ValueError:
+            Vista.errores_excepciones_value()
+        
+        except:
+            Vista.errores_excepciones_general()
+        
     def imprimir_inicio2():#3
         texto2='''Instrucciones del Juego:
 
