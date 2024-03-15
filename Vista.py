@@ -29,11 +29,13 @@ class Vista:
     def preguntar_eleccion_inicio():#2
         try:
             eleccion = int(input('''
-                            █████████████████████████████████████
-                            █          ¿Qué deseas hacer?       █
-                            █ 1. Comenzar a jugar directamente. █
-                            █ 2. Leer primero las instrucciones.█
-                            █████████████████████████████████████
+                            █████████████████████████████████████████
+                            █                                       █
+                            █          ¿Qué deseas hacer?           █
+                            █   1. Comenzar a jugar directamente.   █
+                            █   2. Leer primero las instrucciones.  █ 
+                            █                                       █
+                            █████████████████████████████████████████
                             '''))
             return eleccion
         except ValueError:

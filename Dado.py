@@ -6,5 +6,4 @@ class Dado:
     def lanzar_dado() -> int:
         #Lanza un dado y devuelve el resultado.
         
-        
         return randint(1, 6)
