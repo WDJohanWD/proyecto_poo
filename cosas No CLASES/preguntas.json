@@ -281,7 +281,7 @@
             "respuesta_correcta": "a"
         },
         {
-            "enunciado": "¿En qué deporte se disputa la Copa del Mundo de Cricket?",
+            "enunciado": "¿En qué lugar se disputa la Copa del Mundo de Cricket?",
             "opciones": [
                 "a) Australia",
                 "b) Inglaterra",
@@ -501,6 +501,176 @@
                 "d) Brisbane"
             ],
             "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el país más poblado del mundo?",
+            "opciones": [
+                "a) China",
+                "b) India",
+                "c) Estados Unidos",
+                "d) Brasil"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra el Taj Mahal?",
+            "opciones": [
+                "a) India",
+                "b) Turquía",
+                "c) Egipto",
+                "d) Tailandia"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el lago más profundo del mundo?",
+            "opciones": [
+                "a) Lago Baikal",
+                "b) Lago Victoria",
+                "c) Lago Tanganica",
+                "d) Lago Superior"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra el Monte Kilimanjaro?",
+            "opciones": [
+                "a) Tanzania",
+                "b) Kenia",
+                "c) Uganda",
+                "d) Sudáfrica"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el país más pequeño del mundo?",
+            "opciones": [
+                "a) Mónaco",
+                "b) San Marino",
+                "c) El Vaticano",
+                "d) Nauru"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra el Mar Muerto?",
+            "opciones": [
+                "a) Israel",
+                "b) Jordania",
+                "c) Egipto",
+                "d) Siria"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el país más grande de África?",
+            "opciones": [
+                "a) Sudáfrica",
+                "b) Argelia",
+                "c) Nigeria",
+                "d) Egipto"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el archipiélago más grande del mundo?",
+            "opciones": [
+                "a) Filipinas",
+                "b) Indonesia",
+                "c) Japón",
+                "d) Nueva Zelanda"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra el lago Titicaca?",
+            "opciones": [
+                "a) Bolivia",
+                "b) Perú",
+                "c) Chile",
+                "d) Argentina"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es el desierto más grande del mundo?",
+            "opciones": [
+                "a) Desierto del Sahara",
+                "b) Desierto de Gobi",
+                "c) Desierto de Atacama",
+                "d) Desierto de Arabia"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra el lago Victoria?",
+            "opciones": [
+                "a) Tanzania",
+                "b) Kenia",
+                "c) Uganda",
+                "d) Ruanda"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿Cuál es la capital de Italia?",
+            "opciones": [
+                "a) París",
+                "b) Roma",
+                "c) Berlín",
+                "d) Madrid"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra el desierto de Kalahari?",
+            "opciones": [
+                "a) Sudáfrica",
+                "b) Namibia",
+                "c) Botswana",
+                "d) Zimbabue"
+            ],
+            "respuesta_correcta": "c"
+        },
+        {
+            "enunciado": "¿Cuál es el país con mayor cantidad de islas?",
+            "opciones": [
+                "a) Filipinas",
+                "b) Indonesia",
+                "c) Japón",
+                "d) Maldivas"
+            ],
+            "respuesta_correcta": "b"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra el lago Baikal?",
+            "opciones": [
+                "a) Rusia",
+                "b) Mongolia",
+                "c) Kazajistán",
+                "d) Ucrania"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿Cuál es el estrecho que separa Europa de África?",
+            "opciones": [
+                "a) Estrecho de Gibraltar",
+                "b) Estrecho de Bering",
+                "c) Estrecho de Malaca",
+                "d) Estrecho de Mesina"
+            ],
+            "respuesta_correcta": "a"
+        },
+        {
+            "enunciado": "¿En qué país se encuentra el río Amazonas?",
+            "opciones": [
+                "a) Brasil",
+                "b) Colombia",
+                "c) Perú",
+                "d) Venezuela"
+            ],
+            "respuesta_correcta": "a"
         },
         {
             "enunciado": "¿Cuál es el río que atraviesa la ciudad de París?",
@@ -2489,232 +2659,15 @@
                 "d) Django sin Cadenas"
             ],
             "respuesta_correcta": "a"
-        }
-    ],
-    "preguntas_historia": [
-        {
-            "enunciado": "¿En qué año comenzó la Revolución Francesa?",
-            "opciones": ["a) 1789", "b) 1799", "c) 1804", "d) 1815"],
-            "respuesta_correcta": "a"
         },
         {
-            "enunciado": "¿Quién fue el primer presidente de Estados Unidos?",
-            "opciones": ["a) Thomas Jefferson", "b) George Washington", "c) John Adams", "d) Benjamin Franklin"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Qué evento histórico marcó el final de la Edad Media?",
-            "opciones": ["a) La Guerra de los Cien Años", "b) La caída del Imperio Romano de Occidente", "c) El Renacimiento", "d) La Gran Peste Negra"],
-            "respuesta_correcta": "c"
-        },
-        {
-            "enunciado": "¿Quién fue el líder de la Revolución Rusa en 1917?",
-            "opciones": ["a) León Trotsky", "b) Vladímir Lenin", "c) Josef Stalin", "d) Mijaíl Gorbachov"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Qué acontecimiento histórico marcó el comienzo de la Primera Guerra Mundial?",
-            "opciones": ["a) El asesinato del archiduque Francisco Fernando de Austria", "b) La invasión de Polonia por Alemania", "c) La Revolución Rusa", "d) El hundimiento del Titanic"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál fue la primera civilización conocida de la historia?",
-            "opciones": ["a) Egipcia", "b) Mesopotámica", "c) China antigua", "d) India antigua"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
-            "opciones": ["a) Tratado de Versalles", "b) Tratado de Trianon", "c) Tratado de Saint-Germain-en-Laye", "d) Tratado de Neuilly-sur-Seine"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál fue la batalla que marcó el fin del dominio napoleónico en Europa?",
-            "opciones": ["a) Batalla de Leipzig", "b) Batalla de Waterloo", "c) Batalla de Trafalgar", "d) Batalla de Borodino"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Cuál fue el período conocido como la Edad de Oro de Atenas?",
-            "opciones": ["a) Período Arcaico", "b) Período Clásico", "c) Período Helenístico", "d) Período Romano"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Cuál fue el primer imperio en la historia de China?",
-            "opciones": ["a) Imperio Qin", "b) Imperio Zhou", "c) Imperio Han", "d) Imperio Ming"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Quién fue el líder de la Revolución Cubana en 1959?",
-            "opciones": ["a) Fidel Castro", "b) Che Guevara", "c) Raúl Castro", "d) Fulgencio Batista"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Qué tratado puso fin a la Segunda Guerra Mundial en Europa?",
-            "opciones": ["a) Tratado de Versalles", "b) Tratado de Saint-Germain", "c) Tratado de Múnich", "d) Tratado de Paz de París"],
-            "respuesta_correcta": "d"
-        },
-        {
-            "enunciado": "¿Cuál fue el líder de la Unión Soviética durante la mayor parte de la Guerra Fría?",
-            "opciones": ["a) Nikita Jrushchov", "b) Vladímir Putin", "c) Leonid Brézhnev", "d) José Stalin"],
-            "respuesta_correcta": "c"
-        },
-        {
-            "enunciado": "¿Qué imperio fue responsable de la construcción de la Gran Muralla China?",
-            "opciones": ["a) Imperio Mongol", "b) Imperio Qin", "c) Imperio Han", "d) Imperio Ming"],
-            "respuesta_correcta": "d"
-        },
-        {
-            "enunciado": "¿Cuál fue el resultado de la Revolución Gloriosa en Inglaterra?",
-            "opciones": ["a) La restauración de la monarquía", "b) El establecimiento del parlamentarismo", "c) La independencia de Escocia", "d) La abolición de la nobleza"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Qué evento histórico marcó el fin de la Segunda Guerra Mundial en el Pacífico?",
-            "opciones": ["a) El bombardeo de Pearl Harbor", "b) La rendición de Japón", "c) La batalla de Midway", "d) El desembarco de Normandía"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Quién fue el líder de la Revolución Mexicana?",
-            "opciones": ["a) Porfirio Díaz", "b) Emiliano Zapata", "c) Pancho Villa", "d) Benito Juárez"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Cuál fue el primer país en enviar una misión tripulada a la Luna?",
-            "opciones": ["a) Estados Unidos", "b) Rusia (URSS)", "c) China", "d) India"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Qué guerra comenzó con el bombardeo de Pearl Harbor?",
-            "opciones": ["a) Primera Guerra Mundial", "b) Segunda Guerra Mundial", "c) Guerra de Vietnam", "d) Guerra de Corea"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Quién fue el líder de la Unión Soviética durante la crisis de los misiles en Cuba?",
-            "opciones": ["a) Nikita Jrushchov", "b) Vladímir Putin", "c) Leonid Brézhnev", "d) José Stalin"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿En qué año se firmó la Declaración de Independencia de los Estados Unidos?",
-            "opciones": ["a) 1776", "b) 1789", "c) 1801", "d) 1812"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Qué evento histórico marcó el comienzo de la Revolución Industrial?",
-            "opciones": ["a) La invención de la máquina de vapor", "b) La Revolución Francesa", "c) La independencia de Estados Unidos", "d) La Revolución Rusa"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Quién fue el primer emperador romano?",
-            "opciones": ["a) Julio César", "b) Marco Aurelio", "c) Augusto", "d) Trajano"],
-            "respuesta_correcta": "c"
-        },
-        {
-            "enunciado": "¿Cuál fue el imperio más grande de la antigüedad?",
-            "opciones": ["a) Imperio Romano", "b) Imperio Persa", "c) Imperio Mongol", "d) Imperio Egipcio"],
-            "respuesta_correcta": "c"
-        },
-        {
-            "enunciado": "¿Cuál fue el nombre del primer hombre en orbitar la Tierra?",
-            "opciones": ["a) Yuri Gagarin", "b) Neil Armstrong", "c) Buzz Aldrin", "d) John Glenn"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál fue el evento que llevó al comienzo de la Revolución Americana?",
-            "opciones": ["a) La masacre de Boston", "b) La Batalla de Lexington y Concord", "c) El Motín del Té", "d) La aprobación del Acta del Sello"],
-            "respuesta_correcta": "c"
-        },
-        {
-            "enunciado": "¿En qué año cayó el Muro de Berlín?",
-            "opciones": ["a) 1989", "b) 1991", "c) 1993", "d) 1987"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Quién fue el líder del movimiento por los derechos civiles en Estados Unidos durante la década de 1960?",
-            "opciones": ["a) Martin Luther King Jr.", "b) Malcolm X", "c) Rosa Parks", "d) Jesse Jackson"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál fue la batalla que marcó el fin del Imperio Napoleónico?",
-            "opciones": ["a) Batalla de Leipzig", "b) Batalla de Waterloo", "c) Batalla de Trafalgar", "d) Batalla de Borodino"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Qué país fue el primero en abolir la esclavitud?",
-            "opciones": ["a) Reino Unido", "b) Estados Unidos", "c) Francia", "d) Haití"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Qué evento histórico marcó el inicio de la Primera Guerra Mundial?",
-            "opciones": ["a) Asesinato del Archiduque Francisco Fernando", "b) La Revolución Rusa", "c) La caída del Imperio Otomano", "d) El hundimiento del Lusitania"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Quién fue el líder del movimiento de independencia de la India?",
-            "opciones": ["a) Mohandas Gandhi", "b) Jawaharlal Nehru", "c) Subhas Chandra Bose", "d) Bhagat Singh"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
-            "opciones": ["a) Tratado de Versalles", "b) Tratado de Trianon", "c) Tratado de Saint-Germain", "d) Tratado de Sèvres"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Quién fue el primer presidente de los Estados Unidos?",
-            "opciones": ["a) George Washington", "b) Thomas Jefferson", "c) Abraham Lincoln", "d) John Adams"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál fue el último zar de Rusia?",
-            "opciones": ["a) Nicolás II", "b) Alejandro III", "c) Pedro I", "d) Iván IV"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál era el nombre del movimiento artístico y cultural que floreció en Europa durante el Renacimiento?",
-            "opciones": ["a) Humanismo", "b) Barroco", "c) Renacimiento", "d) Ilustración"],
-            "respuesta_correcta": "c"
-        },
-        {
-            "enunciado": "¿Quién fue el líder de la Revolución Rusa de 1917?",
-            "opciones": ["a) Vladimir Lenin", "b) Joseph Stalin", "c) Leon Trotsky", "d) Aleksandr Kerenski"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál era el nombre del emperador romano conocido por su persecución a los cristianos?",
-            "opciones": ["a) Nerón", "b) Augusto", "c) Constantino", "d) Calígula"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Qué famoso documento estableció los principios básicos del gobierno de Estados Unidos?",
-            "opciones": ["a) La Declaración de Derechos", "b) La Constitución", "c) La Declaración de Independencia", "d) Los Artículos de la Confederación"],
-            "respuesta_correcta": "b"
-        },
-        {
-            "enunciado": "¿Cuál era el nombre del líder de la Unión durante la Guerra Civil Americana?",
-            "opciones": ["a) Abraham Lincoln", "b) Ulysses S. Grant", "c) Robert E. Lee", "d) Jefferson Davis"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Quién fue el líder de la Revolución Cubana?",
-            "opciones": ["a) Fidel Castro", "b) Che Guevara", "c) Fulgencio Batista", "d) Raúl Castro"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Qué evento provocó la entrada de Estados Unidos en la Segunda Guerra Mundial?",
-            "opciones": ["a) El ataque a Pearl Harbor", "b) La invasión de Polonia", "c) La Batalla de Stalingrado", "d) El bombardeo de Hiroshima"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál fue la batalla que puso fin a la Guerra de los Cien Años entre Inglaterra y Francia?",
-            "opciones": ["a) La Batalla de Hastings", "b) La Batalla de Agincourt", "c) La Batalla de Crécy", "d) La Batalla de Castillon"],
-            "respuesta_correcta": "d"
-        },
-        {
-            "enunciado": "¿Quién fue el presidente de Estados Unidos durante la Gran Depresión?",
-            "opciones": ["a) Franklin D. Roosevelt", "b) Herbert Hoover", "c) Woodrow Wilson", "d) Calvin Coolidge"],
-            "respuesta_correcta": "a"
-        },
-        {
-            "enunciado": "¿Cuál era el nombre del emperador romano que convirtió al cristianismo en la religión oficial del imperio?",
-            "opciones": ["a) Constantino", "b) Diocleciano", "c) Augusto", "d) Marco Aurelio"],
+            "enunciado": "¿Durante qué curso escolar fue expulsado Hagrid en las peliculas de Harry Potter?",
+            "opciones": [
+                "a) Tercer curso",
+                "b) Quinto  curso",
+                "c) Segundo Curso ",
+                "d) Sexto curso"
+            ],
             "respuesta_correcta": "a"
         }
     ]
