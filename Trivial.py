@@ -45,7 +45,8 @@ class Trivial:
             
             tableros = [Tablero(jugador) for jugador in jugadores]
             
-            # Iteramos hasta que uno de los jugadores gane
+            # Iteramos hasta que uno de los jugadores ganeo desee salir
+            
             while True:
                 for i, tablero in enumerate(tableros):
                     
@@ -70,12 +71,20 @@ class Trivial:
                     if tablero.queso_instancia.ha_ganado():
                         ganador = jugadores[i]
                         break
+                if Vista.pregunta_salir():
+                    resultados=Vista.guardar_resultado(Jugador,tablero,jugadores,tableros)
+                    Historial.guardar_en_historial('\n'.join(resultados))
+                    break
+                else:
+                    pass
                 
                 # Si hay un ganador, terminamos el juego
                 if ganador:
                     resultados=Vista.guardar_resultado(Jugador,tablero,jugadores,tableros)
                     Historial.guardar_en_historial('\n'.join(resultados))
                     break
+                
+                
                 
             final, mantener_jugadores=Vista.pregunta_final() #Preguntas  si quiere seguir jugando o cerrar el programa y si quiere mantener jugadores
             

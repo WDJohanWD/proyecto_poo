@@ -141,6 +141,12 @@ class Vista:
         resultados = [f"El jugador {jugador.nombre} obtuvo {tablero.queso_instancia.cantidad_quesos()}" for jugador, tablero in zip(jugadores, tableros)]
         return resultados
     
+    def pregunta_salir():
+        salir=input('¿Deseas salir?: ')
+        if salir.lower() == 'si':
+            return True
+        return False
+    
     def pregunta_final():#11
         final=input("¿Deseas seguir jugando? (si/no): ")
         mantener_jugadores=input('¿Deseas mantener los jugadores actuales? (si/no)')
@@ -188,12 +194,15 @@ class Vista:
             print(opcion)
     
     def pedir_respuesta():
-        respuesta=input("Tu respuesta: ").lower()
-        
+        while True:
+            respuesta=input("Tu respuesta: ").lower()
+            if len(respuesta) ==0 or respuesta not in ['a','b','c','d']:
+                print('Introduce una respuesta válida: "a", "b","c" o "d"')
+            else:
+                break
         return respuesta
     
     #Métodos clase queso
-    
     def mostrar_categoria_ganada(valor,categoria):
         if valor == 'repetido':
             print(f'Ya has ganado el queso de la categoría {categoria}. ¡Intenta en otra casilla!')
