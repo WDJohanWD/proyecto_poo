@@ -1,4 +1,4 @@
-from Jugador import Jugador
+from jugador import Jugador
 from Tablero import Tablero
 from Historial import Historial
 from Vista import Vista
